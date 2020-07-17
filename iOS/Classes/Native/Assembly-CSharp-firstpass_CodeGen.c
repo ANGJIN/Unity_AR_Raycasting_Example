@@ -1,0 +1,555 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Int32 NativeGallery::_NativeGallery_CheckPermission()
+extern void NativeGallery__NativeGallery_CheckPermission_mFEC50D3678CED60E738628F782B93E4685760E96 ();
+// 0x00000002 System.Int32 NativeGallery::_NativeGallery_RequestPermission()
+extern void NativeGallery__NativeGallery_RequestPermission_m0517A740167E00EFFE7C4C1DC97C948A0575684C ();
+// 0x00000003 System.Int32 NativeGallery::_NativeGallery_CanOpenSettings()
+extern void NativeGallery__NativeGallery_CanOpenSettings_m12BEB8D9688C95BB1C27964EA9E0AB31C952F945 ();
+// 0x00000004 System.Void NativeGallery::_NativeGallery_OpenSettings()
+extern void NativeGallery__NativeGallery_OpenSettings_mAD42632F070EB54A4721A4CE068B4556453DEF52 ();
+// 0x00000005 System.Void NativeGallery::_NativeGallery_ImageWriteToAlbum(System.String,System.String)
+extern void NativeGallery__NativeGallery_ImageWriteToAlbum_mBBEBE180FC7425DCC470367845818A10A5E58753 ();
+// 0x00000006 System.Void NativeGallery::_NativeGallery_VideoWriteToAlbum(System.String,System.String)
+extern void NativeGallery__NativeGallery_VideoWriteToAlbum_m49ABC9FB79D0A5E2C077275E89D37BC141A1ADD2 ();
+// 0x00000007 System.Void NativeGallery::_NativeGallery_PickImage(System.String)
+extern void NativeGallery__NativeGallery_PickImage_m9B165E19FF4AEB96261D113FCCA7E1F4B14CA46C ();
+// 0x00000008 System.Void NativeGallery::_NativeGallery_PickVideo(System.String)
+extern void NativeGallery__NativeGallery_PickVideo_m07C867C06E332061AAD5F92EFCD7E5FE12FE5B21 ();
+// 0x00000009 System.String NativeGallery::_NativeGallery_GetImageProperties(System.String)
+extern void NativeGallery__NativeGallery_GetImageProperties_mED97ECA5A7A80583552444B04B804EF7E8C5FFD3 ();
+// 0x0000000A System.String NativeGallery::_NativeGallery_GetVideoProperties(System.String)
+extern void NativeGallery__NativeGallery_GetVideoProperties_m95C3022325FC2AB721762EF9F51D68A4EA7E3D72 ();
+// 0x0000000B System.String NativeGallery::_NativeGallery_LoadImageAtPath(System.String,System.String,System.Int32)
+extern void NativeGallery__NativeGallery_LoadImageAtPath_m3CC213A691666A8DDD77CE1707F570BA57BA3729 ();
+// 0x0000000C System.String NativeGallery::get_TemporaryImagePath()
+extern void NativeGallery_get_TemporaryImagePath_mEE63C2A8F5D902579F5B8ECE7C156A779D2109B6 ();
+// 0x0000000D System.String NativeGallery::get_SelectedImagePath()
+extern void NativeGallery_get_SelectedImagePath_m65702C838843CCC213793E3E6257A8536B1965F7 ();
+// 0x0000000E System.String NativeGallery::get_SelectedVideoPath()
+extern void NativeGallery_get_SelectedVideoPath_mF9FE595CB0DDE2FE97366E11D6D763900FC1045F ();
+// 0x0000000F System.String NativeGallery::get_SelectedAudioPath()
+extern void NativeGallery_get_SelectedAudioPath_m3202183B66FA33A37AFDE7AF0DB0AA44EA336AF5 ();
+// 0x00000010 NativeGallery_Permission NativeGallery::CheckPermission(System.Boolean)
+extern void NativeGallery_CheckPermission_m7491CC966E4336F9965E9129C548AAAA676C3D8F ();
+// 0x00000011 NativeGallery_Permission NativeGallery::RequestPermission(System.Boolean)
+extern void NativeGallery_RequestPermission_m8630D48F57D8FED11CD479749A3829E9EB85D0AD ();
+// 0x00000012 System.Boolean NativeGallery::CanOpenSettings()
+extern void NativeGallery_CanOpenSettings_m33E8F97EFF23315856CB0D2C5A8F98B89DE1BE98 ();
+// 0x00000013 System.Void NativeGallery::OpenSettings()
+extern void NativeGallery_OpenSettings_mB666A554CEB73F6D2C28EF14579936ADE8061EA0 ();
+// 0x00000014 NativeGallery_Permission NativeGallery::SaveImageToGallery(System.Byte[],System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveImageToGallery_m21C3E57D3395F11BFF7106FA17AFEF884FAD4E3F ();
+// 0x00000015 NativeGallery_Permission NativeGallery::SaveImageToGallery(System.String,System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveImageToGallery_m05C2933DCE7C6DFC150FD3F07BC9D710B63F29C9 ();
+// 0x00000016 NativeGallery_Permission NativeGallery::SaveImageToGallery(UnityEngine.Texture2D,System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveImageToGallery_m6C0829B532FE1A43DB8C5C4CDF5E393C49516286 ();
+// 0x00000017 NativeGallery_Permission NativeGallery::SaveVideoToGallery(System.Byte[],System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveVideoToGallery_m5F1F02ABF765772B0C63BAE0D598B6AC406CE938 ();
+// 0x00000018 NativeGallery_Permission NativeGallery::SaveVideoToGallery(System.String,System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveVideoToGallery_mE02160E1636CD5BEAADF6C79D83422B4D885EC07 ();
+// 0x00000019 NativeGallery_Permission NativeGallery::SaveAudioToGallery(System.Byte[],System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveAudioToGallery_m232F9B0BA1F745A247F7E7FBA373E5857F6A5EE7 ();
+// 0x0000001A NativeGallery_Permission NativeGallery::SaveAudioToGallery(System.String,System.String,System.String,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveAudioToGallery_m2BC262E6B59BFE704AFE3B188D31FA6F01CC7D1A ();
+// 0x0000001B System.Boolean NativeGallery::CanSelectMultipleFilesFromGallery()
+extern void NativeGallery_CanSelectMultipleFilesFromGallery_m9012FAFE771B68D4CE343C22150A789E8016ACA2 ();
+// 0x0000001C NativeGallery_Permission NativeGallery::GetImageFromGallery(NativeGallery_MediaPickCallback,System.String,System.String)
+extern void NativeGallery_GetImageFromGallery_mD6D6BF52470E918BF06AB31BAB5EB0DD320DA7C8 ();
+// 0x0000001D NativeGallery_Permission NativeGallery::GetVideoFromGallery(NativeGallery_MediaPickCallback,System.String,System.String)
+extern void NativeGallery_GetVideoFromGallery_mDD15829E29A21CCECF0DCE1C1550377E2EB16026 ();
+// 0x0000001E NativeGallery_Permission NativeGallery::GetAudioFromGallery(NativeGallery_MediaPickCallback,System.String,System.String)
+extern void NativeGallery_GetAudioFromGallery_m4E6491F943B83C99BFC68A8C46DBF82878E0EE61 ();
+// 0x0000001F NativeGallery_Permission NativeGallery::GetImagesFromGallery(NativeGallery_MediaPickMultipleCallback,System.String,System.String)
+extern void NativeGallery_GetImagesFromGallery_m25E4C3E5880CF837A42695929E3A7FCBEC641EA0 ();
+// 0x00000020 NativeGallery_Permission NativeGallery::GetVideosFromGallery(NativeGallery_MediaPickMultipleCallback,System.String,System.String)
+extern void NativeGallery_GetVideosFromGallery_mA1DD98D410115D8A1210D3454A28EC8005820EAA ();
+// 0x00000021 NativeGallery_Permission NativeGallery::GetAudiosFromGallery(NativeGallery_MediaPickMultipleCallback,System.String,System.String)
+extern void NativeGallery_GetAudiosFromGallery_m2605EDCA06B350BFE18F6A1F355087D6A585A956 ();
+// 0x00000022 System.Boolean NativeGallery::IsMediaPickerBusy()
+extern void NativeGallery_IsMediaPickerBusy_m1AB7029F286FAB7CD4FCE7A4145DBEEB2E9946AB ();
+// 0x00000023 NativeGallery_Permission NativeGallery::SaveToGallery(System.Byte[],System.String,System.String,NativeGallery_MediaType,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveToGallery_m8B5E4D3BA3BD954B88B585AC036A13179C796A7B ();
+// 0x00000024 NativeGallery_Permission NativeGallery::SaveToGallery(System.String,System.String,System.String,NativeGallery_MediaType,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveToGallery_mF016D644EBD22E4042C4AE41F53848298829F359 ();
+// 0x00000025 System.Void NativeGallery::SaveToGalleryInternal(System.String,System.String,NativeGallery_MediaType,NativeGallery_MediaSaveCallback)
+extern void NativeGallery_SaveToGalleryInternal_mE2B42423FF32E9F69309FF5754B0EA42E0B1048C ();
+// 0x00000026 System.String NativeGallery::GetTemporarySavePath(System.String)
+extern void NativeGallery_GetTemporarySavePath_m9D6123A25E83493457ABDFE680E46DFFCDF43773 ();
+// 0x00000027 NativeGallery_Permission NativeGallery::GetMediaFromGallery(NativeGallery_MediaPickCallback,NativeGallery_MediaType,System.String,System.String)
+extern void NativeGallery_GetMediaFromGallery_mF506C30FB5301B8862C42B97F550FCA4021FE689 ();
+// 0x00000028 NativeGallery_Permission NativeGallery::GetMultipleMediaFromGallery(NativeGallery_MediaPickMultipleCallback,NativeGallery_MediaType,System.String,System.String)
+extern void NativeGallery_GetMultipleMediaFromGallery_m3C3C50A4378E55304FB60501DF5C046276470000 ();
+// 0x00000029 System.Byte[] NativeGallery::GetTextureBytes(UnityEngine.Texture2D,System.Boolean)
+extern void NativeGallery_GetTextureBytes_m07DF4F437F302183155936734CA1B5942582B4D2 ();
+// 0x0000002A System.Byte[] NativeGallery::GetTextureBytesFromCopy(UnityEngine.Texture2D,System.Boolean)
+extern void NativeGallery_GetTextureBytesFromCopy_mBCB2D0AE82FB4A16049EFB2A1C3A5E964C167C59 ();
+// 0x0000002B UnityEngine.Texture2D NativeGallery::LoadImageAtPath(System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+extern void NativeGallery_LoadImageAtPath_m7E2D04E8514667DB5A7BBC450D46FDC971F2F0C7 ();
+// 0x0000002C NativeGallery_ImageProperties NativeGallery::GetImageProperties(System.String)
+extern void NativeGallery_GetImageProperties_mE4A9B3BDD158D7E6EF7EE4450E0F017CCC1A339B ();
+// 0x0000002D NativeGallery_VideoProperties NativeGallery::GetVideoProperties(System.String)
+extern void NativeGallery_GetVideoProperties_mC8BA8A9298F6F7929828D80A93678DBD4EC33F00 ();
+// 0x0000002E System.Void NativeGallery::.cctor()
+extern void NativeGallery__cctor_m992202891AD43763579F8BF45137710419638F10 ();
+// 0x0000002F System.Boolean WebViewObject::get_IsKeyboardVisible()
+extern void WebViewObject_get_IsKeyboardVisible_mB0C8E83D141C8DAE0881129B81C4136E44871767 ();
+// 0x00000030 System.IntPtr WebViewObject::_CWebViewPlugin_Init(System.String,System.Boolean,System.String,System.Boolean)
+extern void WebViewObject__CWebViewPlugin_Init_m1B3FC190EE8907D9275F939EA9B7D6532245E057 ();
+// 0x00000031 System.Int32 WebViewObject::_CWebViewPlugin_Destroy(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_Destroy_m53D2FDB8A84815287E00F983BD9F073F48D488CB ();
+// 0x00000032 System.Void WebViewObject::_CWebViewPlugin_SetMargins(System.IntPtr,System.Single,System.Single,System.Single,System.Single,System.Boolean)
+extern void WebViewObject__CWebViewPlugin_SetMargins_m56D5F9840DED9F66A8CFAC9B8545C3F030037DF7 ();
+// 0x00000033 System.Void WebViewObject::_CWebViewPlugin_SetVisibility(System.IntPtr,System.Boolean)
+extern void WebViewObject__CWebViewPlugin_SetVisibility_m441C480E0AD1EEB3C3A08AFD38E64960E9A04615 ();
+// 0x00000034 System.Void WebViewObject::_CWebViewPlugin_SetAlertDialogEnabled(System.IntPtr,System.Boolean)
+extern void WebViewObject__CWebViewPlugin_SetAlertDialogEnabled_m477CCB21B498F40B0D95739F909D41408295D775 ();
+// 0x00000035 System.Void WebViewObject::_CWebViewPlugin_SetScrollBounceEnabled(System.IntPtr,System.Boolean)
+extern void WebViewObject__CWebViewPlugin_SetScrollBounceEnabled_m601A3BBD258AF322AFFFA23AB3E227341E9F68A7 ();
+// 0x00000036 System.Boolean WebViewObject::_CWebViewPlugin_SetURLPattern(System.IntPtr,System.String,System.String,System.String)
+extern void WebViewObject__CWebViewPlugin_SetURLPattern_m4F03BD5B2D1858461C34D8B565C4C00C4E08DC3B ();
+// 0x00000037 System.Void WebViewObject::_CWebViewPlugin_LoadURL(System.IntPtr,System.String)
+extern void WebViewObject__CWebViewPlugin_LoadURL_m12C1B06C6611E998DB4CA7B5FC3F94E6484D88C4 ();
+// 0x00000038 System.Void WebViewObject::_CWebViewPlugin_LoadHTML(System.IntPtr,System.String,System.String)
+extern void WebViewObject__CWebViewPlugin_LoadHTML_mEFC1B6670C955A864932B068816057ABC4818355 ();
+// 0x00000039 System.Void WebViewObject::_CWebViewPlugin_EvaluateJS(System.IntPtr,System.String)
+extern void WebViewObject__CWebViewPlugin_EvaluateJS_m04DF2117E8C57BE77FA56A580BBBF91403C0F5E2 ();
+// 0x0000003A System.Int32 WebViewObject::_CWebViewPlugin_Progress(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_Progress_mAE6E525F04A3C213563B30602271765C7F364D1A ();
+// 0x0000003B System.Boolean WebViewObject::_CWebViewPlugin_CanGoBack(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_CanGoBack_mDC40CF3D2D18A09FEDFE62F7493BDE042396C1C3 ();
+// 0x0000003C System.Boolean WebViewObject::_CWebViewPlugin_CanGoForward(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_CanGoForward_m1696EFA80B455EF75698EDBC838B058A59548438 ();
+// 0x0000003D System.Void WebViewObject::_CWebViewPlugin_GoBack(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_GoBack_mAE8E2FC8E75939B681DE76688A29EA869CAB1F9D ();
+// 0x0000003E System.Void WebViewObject::_CWebViewPlugin_GoForward(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_GoForward_m3A0DB5FABBECDE24667E414ACC98C60EFF152E9B ();
+// 0x0000003F System.Void WebViewObject::_CWebViewPlugin_AddCustomHeader(System.IntPtr,System.String,System.String)
+extern void WebViewObject__CWebViewPlugin_AddCustomHeader_m6BA0F0F870D0A816DF93B507ADB65BF4285D1936 ();
+// 0x00000040 System.String WebViewObject::_CWebViewPlugin_GetCustomHeaderValue(System.IntPtr,System.String)
+extern void WebViewObject__CWebViewPlugin_GetCustomHeaderValue_mFA817B8A5DA84E4D3604412402D6A238EEF334F4 ();
+// 0x00000041 System.Void WebViewObject::_CWebViewPlugin_RemoveCustomHeader(System.IntPtr,System.String)
+extern void WebViewObject__CWebViewPlugin_RemoveCustomHeader_m1539B6C080BE2981C371830D3347F675AA1D9ADE ();
+// 0x00000042 System.Void WebViewObject::_CWebViewPlugin_ClearCustomHeader(System.IntPtr)
+extern void WebViewObject__CWebViewPlugin_ClearCustomHeader_m84660734A44C701283AB327E13D9DF550F49AE7A ();
+// 0x00000043 System.Void WebViewObject::_CWebViewPlugin_ClearCookies()
+extern void WebViewObject__CWebViewPlugin_ClearCookies_mABB0C0BF95952BAD065B683A947C475040ADCC80 ();
+// 0x00000044 System.Void WebViewObject::_CWebViewPlugin_SaveCookies()
+extern void WebViewObject__CWebViewPlugin_SaveCookies_mBD1BC49F12A0EA0ABF8332ED9404441FD60E6219 ();
+// 0x00000045 System.String WebViewObject::_CWebViewPlugin_GetCookies(System.String)
+extern void WebViewObject__CWebViewPlugin_GetCookies_m223DF7C29A85D0D33E707287BD87FCAA62E14681 ();
+// 0x00000046 System.Boolean WebViewObject::IsWebViewAvailable()
+extern void WebViewObject_IsWebViewAvailable_mBF7CDCD15E4A18FE4A2B8F55F98FBAD07141BFAC ();
+// 0x00000047 System.Void WebViewObject::Init(System.Action`1<System.String>,System.Boolean,System.String,System.Action`1<System.String>,System.Action`1<System.String>,System.Action`1<System.String>,System.Boolean,System.Action`1<System.String>,System.Action`1<System.String>)
+extern void WebViewObject_Init_m1EF2074BFA9FA4CA8B8B54DA142BA45B0596E3BC ();
+// 0x00000048 System.Void WebViewObject::OnDestroy()
+extern void WebViewObject_OnDestroy_m7C534AB2BECA3E8D32BAACD389C3AEE6D20FE891 ();
+// 0x00000049 System.Void WebViewObject::SetCenterPositionWithScale(UnityEngine.Vector2,UnityEngine.Vector2)
+extern void WebViewObject_SetCenterPositionWithScale_m691C8181E32EEE57ECCA282D259E89B3BC190AF6 ();
+// 0x0000004A System.Void WebViewObject::SetMargins(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+extern void WebViewObject_SetMargins_m9CA7ED1147D6C75F55DABD31118D46AA31065208 ();
+// 0x0000004B System.Void WebViewObject::SetVisibility(System.Boolean)
+extern void WebViewObject_SetVisibility_m66D5C6103D4BA663D27D807814FA980D6A4BFDCA ();
+// 0x0000004C System.Boolean WebViewObject::GetVisibility()
+extern void WebViewObject_GetVisibility_mDC16EE86DE1065AB8EE0DFE2EBC73F72416AF24D ();
+// 0x0000004D System.Void WebViewObject::SetAlertDialogEnabled(System.Boolean)
+extern void WebViewObject_SetAlertDialogEnabled_m252CBD56D3F0B68B22776CCBBA3342DF78F53A4D ();
+// 0x0000004E System.Boolean WebViewObject::GetAlertDialogEnabled()
+extern void WebViewObject_GetAlertDialogEnabled_m50785C5625AD1727D8CAC69A54BC8373ED1B4B40 ();
+// 0x0000004F System.Void WebViewObject::SetScrollBounceEnabled(System.Boolean)
+extern void WebViewObject_SetScrollBounceEnabled_m1015155A9C823D04A1EB34E1ABE45AB955AA285D ();
+// 0x00000050 System.Boolean WebViewObject::GetScrollBounceEnabled()
+extern void WebViewObject_GetScrollBounceEnabled_mD3B5539717308333C4C8CBDD6923942A19C35ACB ();
+// 0x00000051 System.Boolean WebViewObject::SetURLPattern(System.String,System.String,System.String)
+extern void WebViewObject_SetURLPattern_mB0BA366F3E91A8DCEA9140871B99B42E985977B7 ();
+// 0x00000052 System.Void WebViewObject::LoadURL(System.String)
+extern void WebViewObject_LoadURL_m120EB904160817E6CFF937B9B769B6A6476D1F45 ();
+// 0x00000053 System.Void WebViewObject::LoadHTML(System.String,System.String)
+extern void WebViewObject_LoadHTML_m851FA0EFCA5C1BD8270F256CF8939EA422FFCC53 ();
+// 0x00000054 System.Void WebViewObject::EvaluateJS(System.String)
+extern void WebViewObject_EvaluateJS_m9B85441309817A03FECDF226B91F70A9F59CC1E9 ();
+// 0x00000055 System.Int32 WebViewObject::Progress()
+extern void WebViewObject_Progress_mC7CA29C23DF94F317068679C4FF227E9378499C7 ();
+// 0x00000056 System.Boolean WebViewObject::CanGoBack()
+extern void WebViewObject_CanGoBack_m23F3D6CF96DC3AA7EEB30C8F90D1B1608DC4EE4C ();
+// 0x00000057 System.Boolean WebViewObject::CanGoForward()
+extern void WebViewObject_CanGoForward_m5EC868FCCFBB577CEA55AA8D18787C7BC00C64ED ();
+// 0x00000058 System.Void WebViewObject::GoBack()
+extern void WebViewObject_GoBack_mBEDEB5DE8385DBEEB479899029EE52B3B6814F8F ();
+// 0x00000059 System.Void WebViewObject::GoForward()
+extern void WebViewObject_GoForward_m854E8DDC325D154587E7DBDC19FF0445CDE32AD2 ();
+// 0x0000005A System.Void WebViewObject::CallOnError(System.String)
+extern void WebViewObject_CallOnError_m26CE5F976690C1E5FB83D00E62544C42A8C4F91E ();
+// 0x0000005B System.Void WebViewObject::CallOnHttpError(System.String)
+extern void WebViewObject_CallOnHttpError_m452A8C79272EE174B036756BB2D4D6C89AE65046 ();
+// 0x0000005C System.Void WebViewObject::CallOnStarted(System.String)
+extern void WebViewObject_CallOnStarted_m8B000CB8D85223D8831064B88CADA19493705870 ();
+// 0x0000005D System.Void WebViewObject::CallOnLoaded(System.String)
+extern void WebViewObject_CallOnLoaded_m2AE9C69A2ADB036548FD226A39E1ED7E74E7F9F6 ();
+// 0x0000005E System.Void WebViewObject::CallFromJS(System.String)
+extern void WebViewObject_CallFromJS_m1E5592190919BF25D027545158468D2C47388593 ();
+// 0x0000005F System.Void WebViewObject::CallOnHooked(System.String)
+extern void WebViewObject_CallOnHooked_m4347EAC8E3C5FF1BAFC6BFBDF1F1EBA3A7AB3E17 ();
+// 0x00000060 System.Void WebViewObject::AddCustomHeader(System.String,System.String)
+extern void WebViewObject_AddCustomHeader_m2AB2BE7EDEE4D8864E3B3EFA33C5C817EDD62B45 ();
+// 0x00000061 System.String WebViewObject::GetCustomHeaderValue(System.String)
+extern void WebViewObject_GetCustomHeaderValue_mFB68F26690FA85C16C1EDE85145CCEC48FB863A1 ();
+// 0x00000062 System.Void WebViewObject::RemoveCustomHeader(System.String)
+extern void WebViewObject_RemoveCustomHeader_m92CB2D346D704BC3A64A42428145957AB08FD779 ();
+// 0x00000063 System.Void WebViewObject::ClearCustomHeader()
+extern void WebViewObject_ClearCustomHeader_m7BD7A7C7CC52D780528A15E62E3F580B4A7F9975 ();
+// 0x00000064 System.Void WebViewObject::ClearCookies()
+extern void WebViewObject_ClearCookies_m506BF40B130481CC189F7BE056E607EF6F9E8A34 ();
+// 0x00000065 System.Void WebViewObject::SaveCookies()
+extern void WebViewObject_SaveCookies_mB7DCBEA607504F3A4892568CDDA5E8317016D7E1 ();
+// 0x00000066 System.String WebViewObject::GetCookies(System.String)
+extern void WebViewObject_GetCookies_m2BCE0A26C8C30D731FA8596646AD7C7D6E148FD1 ();
+// 0x00000067 System.Void WebViewObject::.ctor()
+extern void WebViewObject__ctor_mE65E3BE26D063B85AFC64E27BA782A70C78901D6 ();
+// 0x00000068 System.Boolean NativeGalleryNamespace.NGMediaReceiveCallbackiOS::get_IsBusy()
+extern void NGMediaReceiveCallbackiOS_get_IsBusy_mC4FF7317C4B89E06CD10C7BA0C067EBB819580C5 ();
+// 0x00000069 System.Void NativeGalleryNamespace.NGMediaReceiveCallbackiOS::set_IsBusy(System.Boolean)
+extern void NGMediaReceiveCallbackiOS_set_IsBusy_mD4DF289E406790EE24149C394B3709CF382D0E46 ();
+// 0x0000006A System.Int32 NativeGalleryNamespace.NGMediaReceiveCallbackiOS::_NativeGallery_IsMediaPickerBusy()
+extern void NGMediaReceiveCallbackiOS__NativeGallery_IsMediaPickerBusy_m27B634650F40606BE9DEF2869112028E6AE9F609 ();
+// 0x0000006B System.Void NativeGalleryNamespace.NGMediaReceiveCallbackiOS::Initialize(NativeGallery_MediaPickCallback)
+extern void NGMediaReceiveCallbackiOS_Initialize_mF83B1BB78221F4403D462D7E6398377EF3023093 ();
+// 0x0000006C System.Void NativeGalleryNamespace.NGMediaReceiveCallbackiOS::Update()
+extern void NGMediaReceiveCallbackiOS_Update_m30E7934A6D8BB13E7AF893C44C0284FD195948B0 ();
+// 0x0000006D System.Void NativeGalleryNamespace.NGMediaReceiveCallbackiOS::OnMediaReceived(System.String)
+extern void NGMediaReceiveCallbackiOS_OnMediaReceived_mFDC546B2D6E12F112983F49F62C1A579140E8A2C ();
+// 0x0000006E System.Void NativeGalleryNamespace.NGMediaReceiveCallbackiOS::.ctor()
+extern void NGMediaReceiveCallbackiOS__ctor_m05ECE35D17420B97C824F3A0D9C049F63FCC5EC0 ();
+// 0x0000006F System.Void NativeGalleryNamespace.NGMediaSaveCallbackiOS::Initialize(NativeGallery_MediaSaveCallback)
+extern void NGMediaSaveCallbackiOS_Initialize_m192C8B40047800C64FB83E4E22D7AAC130BE4A5C ();
+// 0x00000070 System.Void NativeGalleryNamespace.NGMediaSaveCallbackiOS::OnMediaSaveCompleted(System.String)
+extern void NGMediaSaveCallbackiOS_OnMediaSaveCompleted_m35889D0B877A1AC4E38C188745BA06E20B62CA23 ();
+// 0x00000071 System.Void NativeGalleryNamespace.NGMediaSaveCallbackiOS::OnMediaSaveFailed(System.String)
+extern void NGMediaSaveCallbackiOS_OnMediaSaveFailed_mFB9E7B373EDDC250259A5DF8DE0BBA7AD04B0004 ();
+// 0x00000072 System.Void NativeGalleryNamespace.NGMediaSaveCallbackiOS::.ctor()
+extern void NGMediaSaveCallbackiOS__ctor_mDBB26F636C5D93CD2F1B5174DC0256065D898B91 ();
+// 0x00000073 System.Void NativeGallery_ImageProperties::.ctor(System.Int32,System.Int32,System.String,NativeGallery_ImageOrientation)
+extern void ImageProperties__ctor_m4E4E8847436CFE3F22EA86C2600E2E11F2DCA309_AdjustorThunk ();
+// 0x00000074 System.Void NativeGallery_VideoProperties::.ctor(System.Int32,System.Int32,System.Int64,System.Single)
+extern void VideoProperties__ctor_m40C8B334D3149DE0D27A65948F964653C775A5D2_AdjustorThunk ();
+// 0x00000075 System.Void NativeGallery_MediaSaveCallback::.ctor(System.Object,System.IntPtr)
+extern void MediaSaveCallback__ctor_mECC7FFA46C9E384BB132DFEC7756FE761E20A226 ();
+// 0x00000076 System.Void NativeGallery_MediaSaveCallback::Invoke(System.String)
+extern void MediaSaveCallback_Invoke_m9C29E61C697923DD18A9BEAE00CACCE7B3E27B9C ();
+// 0x00000077 System.IAsyncResult NativeGallery_MediaSaveCallback::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void MediaSaveCallback_BeginInvoke_mDEF4C261D789803EDAA13CF4C591898FF2233B30 ();
+// 0x00000078 System.Void NativeGallery_MediaSaveCallback::EndInvoke(System.IAsyncResult)
+extern void MediaSaveCallback_EndInvoke_mCEF8DD8A7445D2DD3D1831B56CC5BDF6EA03C0AB ();
+// 0x00000079 System.Void NativeGallery_MediaPickCallback::.ctor(System.Object,System.IntPtr)
+extern void MediaPickCallback__ctor_m82EF4DC0AEBE82B93D0132A4205B6A28DD958979 ();
+// 0x0000007A System.Void NativeGallery_MediaPickCallback::Invoke(System.String)
+extern void MediaPickCallback_Invoke_mD69E3FF582B07001BD6CD972E4C5B191E0C0B9F5 ();
+// 0x0000007B System.IAsyncResult NativeGallery_MediaPickCallback::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void MediaPickCallback_BeginInvoke_mB834768524AA33CCF77E2DDE218ED80D47809281 ();
+// 0x0000007C System.Void NativeGallery_MediaPickCallback::EndInvoke(System.IAsyncResult)
+extern void MediaPickCallback_EndInvoke_m794F03742709027A8EA460F9EC76FB578BD0CF5D ();
+// 0x0000007D System.Void NativeGallery_MediaPickMultipleCallback::.ctor(System.Object,System.IntPtr)
+extern void MediaPickMultipleCallback__ctor_mAAE096143FBB70078D733760F5176513F78B485A ();
+// 0x0000007E System.Void NativeGallery_MediaPickMultipleCallback::Invoke(System.String[])
+extern void MediaPickMultipleCallback_Invoke_m442D93AB2F78D6145659E27526C1438C3D1D0793 ();
+// 0x0000007F System.IAsyncResult NativeGallery_MediaPickMultipleCallback::BeginInvoke(System.String[],System.AsyncCallback,System.Object)
+extern void MediaPickMultipleCallback_BeginInvoke_mDBA1F26C1055C49CCE81904786F14A42159C1968 ();
+// 0x00000080 System.Void NativeGallery_MediaPickMultipleCallback::EndInvoke(System.IAsyncResult)
+extern void MediaPickMultipleCallback_EndInvoke_m15F83930FEC1F77693CF12EC0CF3D2338007CFB1 ();
+static Il2CppMethodPointer s_methodPointers[128] = 
+{
+	NativeGallery__NativeGallery_CheckPermission_mFEC50D3678CED60E738628F782B93E4685760E96,
+	NativeGallery__NativeGallery_RequestPermission_m0517A740167E00EFFE7C4C1DC97C948A0575684C,
+	NativeGallery__NativeGallery_CanOpenSettings_m12BEB8D9688C95BB1C27964EA9E0AB31C952F945,
+	NativeGallery__NativeGallery_OpenSettings_mAD42632F070EB54A4721A4CE068B4556453DEF52,
+	NativeGallery__NativeGallery_ImageWriteToAlbum_mBBEBE180FC7425DCC470367845818A10A5E58753,
+	NativeGallery__NativeGallery_VideoWriteToAlbum_m49ABC9FB79D0A5E2C077275E89D37BC141A1ADD2,
+	NativeGallery__NativeGallery_PickImage_m9B165E19FF4AEB96261D113FCCA7E1F4B14CA46C,
+	NativeGallery__NativeGallery_PickVideo_m07C867C06E332061AAD5F92EFCD7E5FE12FE5B21,
+	NativeGallery__NativeGallery_GetImageProperties_mED97ECA5A7A80583552444B04B804EF7E8C5FFD3,
+	NativeGallery__NativeGallery_GetVideoProperties_m95C3022325FC2AB721762EF9F51D68A4EA7E3D72,
+	NativeGallery__NativeGallery_LoadImageAtPath_m3CC213A691666A8DDD77CE1707F570BA57BA3729,
+	NativeGallery_get_TemporaryImagePath_mEE63C2A8F5D902579F5B8ECE7C156A779D2109B6,
+	NativeGallery_get_SelectedImagePath_m65702C838843CCC213793E3E6257A8536B1965F7,
+	NativeGallery_get_SelectedVideoPath_mF9FE595CB0DDE2FE97366E11D6D763900FC1045F,
+	NativeGallery_get_SelectedAudioPath_m3202183B66FA33A37AFDE7AF0DB0AA44EA336AF5,
+	NativeGallery_CheckPermission_m7491CC966E4336F9965E9129C548AAAA676C3D8F,
+	NativeGallery_RequestPermission_m8630D48F57D8FED11CD479749A3829E9EB85D0AD,
+	NativeGallery_CanOpenSettings_m33E8F97EFF23315856CB0D2C5A8F98B89DE1BE98,
+	NativeGallery_OpenSettings_mB666A554CEB73F6D2C28EF14579936ADE8061EA0,
+	NativeGallery_SaveImageToGallery_m21C3E57D3395F11BFF7106FA17AFEF884FAD4E3F,
+	NativeGallery_SaveImageToGallery_m05C2933DCE7C6DFC150FD3F07BC9D710B63F29C9,
+	NativeGallery_SaveImageToGallery_m6C0829B532FE1A43DB8C5C4CDF5E393C49516286,
+	NativeGallery_SaveVideoToGallery_m5F1F02ABF765772B0C63BAE0D598B6AC406CE938,
+	NativeGallery_SaveVideoToGallery_mE02160E1636CD5BEAADF6C79D83422B4D885EC07,
+	NativeGallery_SaveAudioToGallery_m232F9B0BA1F745A247F7E7FBA373E5857F6A5EE7,
+	NativeGallery_SaveAudioToGallery_m2BC262E6B59BFE704AFE3B188D31FA6F01CC7D1A,
+	NativeGallery_CanSelectMultipleFilesFromGallery_m9012FAFE771B68D4CE343C22150A789E8016ACA2,
+	NativeGallery_GetImageFromGallery_mD6D6BF52470E918BF06AB31BAB5EB0DD320DA7C8,
+	NativeGallery_GetVideoFromGallery_mDD15829E29A21CCECF0DCE1C1550377E2EB16026,
+	NativeGallery_GetAudioFromGallery_m4E6491F943B83C99BFC68A8C46DBF82878E0EE61,
+	NativeGallery_GetImagesFromGallery_m25E4C3E5880CF837A42695929E3A7FCBEC641EA0,
+	NativeGallery_GetVideosFromGallery_mA1DD98D410115D8A1210D3454A28EC8005820EAA,
+	NativeGallery_GetAudiosFromGallery_m2605EDCA06B350BFE18F6A1F355087D6A585A956,
+	NativeGallery_IsMediaPickerBusy_m1AB7029F286FAB7CD4FCE7A4145DBEEB2E9946AB,
+	NativeGallery_SaveToGallery_m8B5E4D3BA3BD954B88B585AC036A13179C796A7B,
+	NativeGallery_SaveToGallery_mF016D644EBD22E4042C4AE41F53848298829F359,
+	NativeGallery_SaveToGalleryInternal_mE2B42423FF32E9F69309FF5754B0EA42E0B1048C,
+	NativeGallery_GetTemporarySavePath_m9D6123A25E83493457ABDFE680E46DFFCDF43773,
+	NativeGallery_GetMediaFromGallery_mF506C30FB5301B8862C42B97F550FCA4021FE689,
+	NativeGallery_GetMultipleMediaFromGallery_m3C3C50A4378E55304FB60501DF5C046276470000,
+	NativeGallery_GetTextureBytes_m07DF4F437F302183155936734CA1B5942582B4D2,
+	NativeGallery_GetTextureBytesFromCopy_mBCB2D0AE82FB4A16049EFB2A1C3A5E964C167C59,
+	NativeGallery_LoadImageAtPath_m7E2D04E8514667DB5A7BBC450D46FDC971F2F0C7,
+	NativeGallery_GetImageProperties_mE4A9B3BDD158D7E6EF7EE4450E0F017CCC1A339B,
+	NativeGallery_GetVideoProperties_mC8BA8A9298F6F7929828D80A93678DBD4EC33F00,
+	NativeGallery__cctor_m992202891AD43763579F8BF45137710419638F10,
+	WebViewObject_get_IsKeyboardVisible_mB0C8E83D141C8DAE0881129B81C4136E44871767,
+	WebViewObject__CWebViewPlugin_Init_m1B3FC190EE8907D9275F939EA9B7D6532245E057,
+	WebViewObject__CWebViewPlugin_Destroy_m53D2FDB8A84815287E00F983BD9F073F48D488CB,
+	WebViewObject__CWebViewPlugin_SetMargins_m56D5F9840DED9F66A8CFAC9B8545C3F030037DF7,
+	WebViewObject__CWebViewPlugin_SetVisibility_m441C480E0AD1EEB3C3A08AFD38E64960E9A04615,
+	WebViewObject__CWebViewPlugin_SetAlertDialogEnabled_m477CCB21B498F40B0D95739F909D41408295D775,
+	WebViewObject__CWebViewPlugin_SetScrollBounceEnabled_m601A3BBD258AF322AFFFA23AB3E227341E9F68A7,
+	WebViewObject__CWebViewPlugin_SetURLPattern_m4F03BD5B2D1858461C34D8B565C4C00C4E08DC3B,
+	WebViewObject__CWebViewPlugin_LoadURL_m12C1B06C6611E998DB4CA7B5FC3F94E6484D88C4,
+	WebViewObject__CWebViewPlugin_LoadHTML_mEFC1B6670C955A864932B068816057ABC4818355,
+	WebViewObject__CWebViewPlugin_EvaluateJS_m04DF2117E8C57BE77FA56A580BBBF91403C0F5E2,
+	WebViewObject__CWebViewPlugin_Progress_mAE6E525F04A3C213563B30602271765C7F364D1A,
+	WebViewObject__CWebViewPlugin_CanGoBack_mDC40CF3D2D18A09FEDFE62F7493BDE042396C1C3,
+	WebViewObject__CWebViewPlugin_CanGoForward_m1696EFA80B455EF75698EDBC838B058A59548438,
+	WebViewObject__CWebViewPlugin_GoBack_mAE8E2FC8E75939B681DE76688A29EA869CAB1F9D,
+	WebViewObject__CWebViewPlugin_GoForward_m3A0DB5FABBECDE24667E414ACC98C60EFF152E9B,
+	WebViewObject__CWebViewPlugin_AddCustomHeader_m6BA0F0F870D0A816DF93B507ADB65BF4285D1936,
+	WebViewObject__CWebViewPlugin_GetCustomHeaderValue_mFA817B8A5DA84E4D3604412402D6A238EEF334F4,
+	WebViewObject__CWebViewPlugin_RemoveCustomHeader_m1539B6C080BE2981C371830D3347F675AA1D9ADE,
+	WebViewObject__CWebViewPlugin_ClearCustomHeader_m84660734A44C701283AB327E13D9DF550F49AE7A,
+	WebViewObject__CWebViewPlugin_ClearCookies_mABB0C0BF95952BAD065B683A947C475040ADCC80,
+	WebViewObject__CWebViewPlugin_SaveCookies_mBD1BC49F12A0EA0ABF8332ED9404441FD60E6219,
+	WebViewObject__CWebViewPlugin_GetCookies_m223DF7C29A85D0D33E707287BD87FCAA62E14681,
+	WebViewObject_IsWebViewAvailable_mBF7CDCD15E4A18FE4A2B8F55F98FBAD07141BFAC,
+	WebViewObject_Init_m1EF2074BFA9FA4CA8B8B54DA142BA45B0596E3BC,
+	WebViewObject_OnDestroy_m7C534AB2BECA3E8D32BAACD389C3AEE6D20FE891,
+	WebViewObject_SetCenterPositionWithScale_m691C8181E32EEE57ECCA282D259E89B3BC190AF6,
+	WebViewObject_SetMargins_m9CA7ED1147D6C75F55DABD31118D46AA31065208,
+	WebViewObject_SetVisibility_m66D5C6103D4BA663D27D807814FA980D6A4BFDCA,
+	WebViewObject_GetVisibility_mDC16EE86DE1065AB8EE0DFE2EBC73F72416AF24D,
+	WebViewObject_SetAlertDialogEnabled_m252CBD56D3F0B68B22776CCBBA3342DF78F53A4D,
+	WebViewObject_GetAlertDialogEnabled_m50785C5625AD1727D8CAC69A54BC8373ED1B4B40,
+	WebViewObject_SetScrollBounceEnabled_m1015155A9C823D04A1EB34E1ABE45AB955AA285D,
+	WebViewObject_GetScrollBounceEnabled_mD3B5539717308333C4C8CBDD6923942A19C35ACB,
+	WebViewObject_SetURLPattern_mB0BA366F3E91A8DCEA9140871B99B42E985977B7,
+	WebViewObject_LoadURL_m120EB904160817E6CFF937B9B769B6A6476D1F45,
+	WebViewObject_LoadHTML_m851FA0EFCA5C1BD8270F256CF8939EA422FFCC53,
+	WebViewObject_EvaluateJS_m9B85441309817A03FECDF226B91F70A9F59CC1E9,
+	WebViewObject_Progress_mC7CA29C23DF94F317068679C4FF227E9378499C7,
+	WebViewObject_CanGoBack_m23F3D6CF96DC3AA7EEB30C8F90D1B1608DC4EE4C,
+	WebViewObject_CanGoForward_m5EC868FCCFBB577CEA55AA8D18787C7BC00C64ED,
+	WebViewObject_GoBack_mBEDEB5DE8385DBEEB479899029EE52B3B6814F8F,
+	WebViewObject_GoForward_m854E8DDC325D154587E7DBDC19FF0445CDE32AD2,
+	WebViewObject_CallOnError_m26CE5F976690C1E5FB83D00E62544C42A8C4F91E,
+	WebViewObject_CallOnHttpError_m452A8C79272EE174B036756BB2D4D6C89AE65046,
+	WebViewObject_CallOnStarted_m8B000CB8D85223D8831064B88CADA19493705870,
+	WebViewObject_CallOnLoaded_m2AE9C69A2ADB036548FD226A39E1ED7E74E7F9F6,
+	WebViewObject_CallFromJS_m1E5592190919BF25D027545158468D2C47388593,
+	WebViewObject_CallOnHooked_m4347EAC8E3C5FF1BAFC6BFBDF1F1EBA3A7AB3E17,
+	WebViewObject_AddCustomHeader_m2AB2BE7EDEE4D8864E3B3EFA33C5C817EDD62B45,
+	WebViewObject_GetCustomHeaderValue_mFB68F26690FA85C16C1EDE85145CCEC48FB863A1,
+	WebViewObject_RemoveCustomHeader_m92CB2D346D704BC3A64A42428145957AB08FD779,
+	WebViewObject_ClearCustomHeader_m7BD7A7C7CC52D780528A15E62E3F580B4A7F9975,
+	WebViewObject_ClearCookies_m506BF40B130481CC189F7BE056E607EF6F9E8A34,
+	WebViewObject_SaveCookies_mB7DCBEA607504F3A4892568CDDA5E8317016D7E1,
+	WebViewObject_GetCookies_m2BCE0A26C8C30D731FA8596646AD7C7D6E148FD1,
+	WebViewObject__ctor_mE65E3BE26D063B85AFC64E27BA782A70C78901D6,
+	NGMediaReceiveCallbackiOS_get_IsBusy_mC4FF7317C4B89E06CD10C7BA0C067EBB819580C5,
+	NGMediaReceiveCallbackiOS_set_IsBusy_mD4DF289E406790EE24149C394B3709CF382D0E46,
+	NGMediaReceiveCallbackiOS__NativeGallery_IsMediaPickerBusy_m27B634650F40606BE9DEF2869112028E6AE9F609,
+	NGMediaReceiveCallbackiOS_Initialize_mF83B1BB78221F4403D462D7E6398377EF3023093,
+	NGMediaReceiveCallbackiOS_Update_m30E7934A6D8BB13E7AF893C44C0284FD195948B0,
+	NGMediaReceiveCallbackiOS_OnMediaReceived_mFDC546B2D6E12F112983F49F62C1A579140E8A2C,
+	NGMediaReceiveCallbackiOS__ctor_m05ECE35D17420B97C824F3A0D9C049F63FCC5EC0,
+	NGMediaSaveCallbackiOS_Initialize_m192C8B40047800C64FB83E4E22D7AAC130BE4A5C,
+	NGMediaSaveCallbackiOS_OnMediaSaveCompleted_m35889D0B877A1AC4E38C188745BA06E20B62CA23,
+	NGMediaSaveCallbackiOS_OnMediaSaveFailed_mFB9E7B373EDDC250259A5DF8DE0BBA7AD04B0004,
+	NGMediaSaveCallbackiOS__ctor_mDBB26F636C5D93CD2F1B5174DC0256065D898B91,
+	ImageProperties__ctor_m4E4E8847436CFE3F22EA86C2600E2E11F2DCA309_AdjustorThunk,
+	VideoProperties__ctor_m40C8B334D3149DE0D27A65948F964653C775A5D2_AdjustorThunk,
+	MediaSaveCallback__ctor_mECC7FFA46C9E384BB132DFEC7756FE761E20A226,
+	MediaSaveCallback_Invoke_m9C29E61C697923DD18A9BEAE00CACCE7B3E27B9C,
+	MediaSaveCallback_BeginInvoke_mDEF4C261D789803EDAA13CF4C591898FF2233B30,
+	MediaSaveCallback_EndInvoke_mCEF8DD8A7445D2DD3D1831B56CC5BDF6EA03C0AB,
+	MediaPickCallback__ctor_m82EF4DC0AEBE82B93D0132A4205B6A28DD958979,
+	MediaPickCallback_Invoke_mD69E3FF582B07001BD6CD972E4C5B191E0C0B9F5,
+	MediaPickCallback_BeginInvoke_mB834768524AA33CCF77E2DDE218ED80D47809281,
+	MediaPickCallback_EndInvoke_m794F03742709027A8EA460F9EC76FB578BD0CF5D,
+	MediaPickMultipleCallback__ctor_mAAE096143FBB70078D733760F5176513F78B485A,
+	MediaPickMultipleCallback_Invoke_m442D93AB2F78D6145659E27526C1438C3D1D0793,
+	MediaPickMultipleCallback_BeginInvoke_mDBA1F26C1055C49CCE81904786F14A42159C1968,
+	MediaPickMultipleCallback_EndInvoke_m15F83930FEC1F77693CF12EC0CF3D2338007CFB1,
+};
+static const int32_t s_InvokerIndices[128] = 
+{
+	106,
+	106,
+	106,
+	3,
+	137,
+	137,
+	154,
+	154,
+	0,
+	0,
+	553,
+	4,
+	4,
+	4,
+	4,
+	252,
+	252,
+	49,
+	3,
+	774,
+	774,
+	774,
+	774,
+	774,
+	774,
+	774,
+	49,
+	178,
+	178,
+	178,
+	178,
+	178,
+	178,
+	49,
+	2541,
+	2541,
+	2542,
+	0,
+	2543,
+	2543,
+	153,
+	153,
+	2544,
+	2545,
+	2546,
+	3,
+	89,
+	2548,
+	155,
+	2549,
+	2494,
+	2494,
+	2494,
+	2550,
+	1278,
+	2551,
+	1278,
+	155,
+	593,
+	593,
+	25,
+	25,
+	2551,
+	713,
+	1278,
+	25,
+	3,
+	3,
+	0,
+	49,
+	2552,
+	23,
+	1413,
+	1467,
+	31,
+	89,
+	31,
+	89,
+	31,
+	89,
+	919,
+	26,
+	27,
+	26,
+	10,
+	89,
+	89,
+	23,
+	23,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	27,
+	28,
+	26,
+	23,
+	23,
+	23,
+	28,
+	23,
+	49,
+	844,
+	106,
+	154,
+	23,
+	26,
+	23,
+	154,
+	26,
+	26,
+	23,
+	61,
+	2547,
+	124,
+	26,
+	205,
+	26,
+	124,
+	26,
+	205,
+	26,
+	124,
+	26,
+	205,
+	26,
+};
+extern const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule = 
+{
+	"Assembly-CSharp-firstpass.dll",
+	128,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};

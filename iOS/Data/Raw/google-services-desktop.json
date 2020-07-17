@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "474576699283",
+    "firebase_url": "https://arocation-3ba0e.firebaseio.com",
+    "project_id": "arocation-3ba0e",
+    "storage_bucket": "arocation-3ba0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474576699283:android:0dec015edadc9e1b477266",
+        "android_client_info": {
+          "package_name": "com.sixdvision.ARocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474576699283-l724vtun1itp9a1an79bibk8e9fcr22i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixdvision.ARocation",
+            "certificate_hash": "2c25232e07a8861c106f157b16dddeb41e47249f"
+          }
+        },
+        {
+          "client_id": "474576699283-o3l8tr572i5pkn7agqig025riq8qq9hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoK89XyYu-vLG-EIN8HpVsC0zSUuc2RXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474576699283-o3l8tr572i5pkn7agqig025riq8qq9hb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "474576699283-nsni05p2pm7522gm07nf1r8m7u5md7cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sixdvision.ARocation"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474576699283:android:be131f0fcba4e4b3477266",
+        "android_client_info": {
+          "package_name": "com.sixdvision.ARocation.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474576699283-o3l8tr572i5pkn7agqig025riq8qq9hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoK89XyYu-vLG-EIN8HpVsC0zSUuc2RXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474576699283-o3l8tr572i5pkn7agqig025riq8qq9hb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "474576699283-nsni05p2pm7522gm07nf1r8m7u5md7cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sixdvision.ARocation"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

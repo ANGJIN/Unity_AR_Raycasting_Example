@@ -1,0 +1,1662 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+extern const RuntimeMethod* FutureString_SWIG_CompletionDispatcher_m86EEC251866153D32AEE9B99F7BD7C6E4CC3CECD_RuntimeMethod_var;
+extern const RuntimeMethod* FutureVoid_SWIG_CompletionDispatcher_m8CFA344FBD0E96B3C7896FC501558DA1419AB92A_RuntimeMethod_var;
+extern const RuntimeMethod* LogUtil_LogMessageFromCallback_m51E15E038FD24735B401F08AE91DA68177B9C1F8_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_mFE7727F29EF454DC82F7773C7DCA7DC4B9DCE688_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_mA47B953C5D09FDB764911484316FFDAAB4B0BE4A_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_m1DAEF08C4FAD2181E64B920B843C903538D09327_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m2DDA9CC01A5B010A4D682F0615F89EFEA2D3A385_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArithmeticException_m66D325C658E4D4A6F84E8BFF2A532FAAE96D5B5C_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingDivideByZeroException_mEBC984AA86593D05467BC12012A3E1E33953ADED_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIOException_m59B1FD0225B32443CC0685A249F0A301693C2744_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mD9473B8DC134A0E6BCE15305DC2E12E53AF6236E_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidCastException_mB08BAC65C0DB20E0361AD747E5009B62EAACC5F8_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidOperationException_mF62073712A93DD7570BEC306E4E2DF6049F31EA9_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingNullReferenceException_m5F381925BBBE581ADE8384B76FEA7D208B69ED4D_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOutOfMemoryException_m71E895F1202CBDC1909619B221AC6AB3276D7AF7_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOverflowException_m8FDE1CE2A3D3EB2DA8C7C12E28DD90C15E84D946_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemException_m8EC608208492B67293B9C2AC06D7B85B5B1B26E4_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGStringHelper_CreateString_mF4B58DD5B3526C5E91D71786D528CC4ADADCF243_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Firebase.AppUtilPINVOKE::.cctor()
+extern void AppUtilPINVOKE__cctor_m323C5F5D15D57DD7481971BF43495E4BB0E232AD ();
+// 0x00000002 System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_FutureBase(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_FutureBase_mAD9EF7C7D0084FCBA7E08DDEA165A99B5AD1AB34 ();
+// 0x00000003 System.Int32 Firebase.AppUtilPINVOKE::Firebase_App_FutureBase_status(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FutureBase_status_m8432BB5A381610C55302344E2038AE51BAF4D4AF ();
+// 0x00000004 System.Int32 Firebase.AppUtilPINVOKE::Firebase_App_FutureBase_error(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FutureBase_error_mD4C52D4D784968CE0D60A37DE882431CF3514C93 ();
+// 0x00000005 System.String Firebase.AppUtilPINVOKE::Firebase_App_FutureBase_error_message(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FutureBase_error_message_m1435CB8D1CE57C58E5175D0517F5D600189C2746 ();
+// 0x00000006 System.UInt32 Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_size(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_size_m413083CB1755EC2DB8D64E1B047AB760A140D377 ();
+// 0x00000007 System.Void Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_Clear(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_Clear_mB1C78893EBE043F01267ACF49F011669046A8CDE ();
+// 0x00000008 System.String Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_getitem(System.Runtime.InteropServices.HandleRef,System.String)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_getitem_m6E2371BA1C81F3F8C24A17467BE191B8CAA2163D ();
+// 0x00000009 System.Void Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_setitem(System.Runtime.InteropServices.HandleRef,System.String,System.String)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_setitem_m244403B6143A02341F4BD0A3484381D4FB0217DC ();
+// 0x0000000A System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_ContainsKey(System.Runtime.InteropServices.HandleRef,System.String)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_ContainsKey_m5D1CE45F71E7307735365E550F518D69F073A822 ();
+// 0x0000000B System.Void Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_Add(System.Runtime.InteropServices.HandleRef,System.String,System.String)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_Add_m681C3985D8FFFD4081512E8D32D63C0E75E8EF89 ();
+// 0x0000000C System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_Remove(System.Runtime.InteropServices.HandleRef,System.String)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_Remove_m6E31D85226BE3F2E9B17744AF7A76908873F6606 ();
+// 0x0000000D System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_create_iterator_begin(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_create_iterator_begin_mCFE935494171274EB38EFB8AC23775DADD2A3DCA ();
+// 0x0000000E System.String Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_get_next_key(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_get_next_key_m427BE9BC5E9B37F281342A843ACB9A44CD3475C9 ();
+// 0x0000000F System.Void Firebase.AppUtilPINVOKE::Firebase_App_StringStringMap_destroy_iterator(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_StringStringMap_destroy_iterator_mB4F4514CB59CD2F3A83D88375EB8405AD0BA95FE ();
+// 0x00000010 System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_StringStringMap(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_StringStringMap_m690977A630E9B0727BF16B5989B363AF7B8F5388 ();
+// 0x00000011 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FutureString_SWIG_OnCompletion(System.Runtime.InteropServices.HandleRef,Firebase.FutureString_SWIG_CompletionDelegate,System.Int32)
+extern void AppUtilPINVOKE_Firebase_App_FutureString_SWIG_OnCompletion_m20A7771AEEF1D03B0DE3047D36FC8BEE0D247C26 ();
+// 0x00000012 System.Void Firebase.AppUtilPINVOKE::Firebase_App_FutureString_SWIG_FreeCompletionData(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_FutureString_SWIG_FreeCompletionData_m606A677773D5976BC37FDDFE13238114E93DA466 ();
+// 0x00000013 System.String Firebase.AppUtilPINVOKE::Firebase_App_FutureString_GetResult(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FutureString_GetResult_m86378A84E903FB2AB1BE9B5B285EDE23F3EC305D ();
+// 0x00000014 System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_FutureString(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_FutureString_m8B3FAF01839DB496EEAEEFB13E527CB185BCB6B5 ();
+// 0x00000015 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FutureVoid_SWIG_OnCompletion(System.Runtime.InteropServices.HandleRef,Firebase.FutureVoid_SWIG_CompletionDelegate,System.Int32)
+extern void AppUtilPINVOKE_Firebase_App_FutureVoid_SWIG_OnCompletion_mD5BBFD3BCD760120C652F2A6A41D2AF862AD3C2A ();
+// 0x00000016 System.Void Firebase.AppUtilPINVOKE::Firebase_App_FutureVoid_SWIG_FreeCompletionData(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_FutureVoid_SWIG_FreeCompletionData_mE6CFA37BE33C4068A3F6F7BD0E6268752729C3BB ();
+// 0x00000017 System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_FutureVoid(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_FutureVoid_m9A8B5FC2D7B9B34F4CFE65D3A268ED3D9611A93B ();
+// 0x00000018 System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_GetDatabaseUrlInternal(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_GetDatabaseUrlInternal_m5342C566D1300649EF9F4C0A784C3FC29C8C05F4 ();
+// 0x00000019 System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_AppId_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_AppId_get_m1D0BA312B4EB816F5067D022E3EFC2E83E8D24EA ();
+// 0x0000001A System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_ApiKey_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_ApiKey_get_mF11F5251E8C047F2D0AB07EEA7479E2787B41372 ();
+// 0x0000001B System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_MessageSenderId_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_MessageSenderId_get_mA47CC56FF7441780BB5BDDE45BF849E7C6B706FD ();
+// 0x0000001C System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_StorageBucket_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_StorageBucket_get_mD18AD7E8E2A569028E6399386AE665CD6728EADE ();
+// 0x0000001D System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_ProjectId_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_ProjectId_get_m9B8A4E351FFE25FFE1281459CEDB9A7401F65B7F ();
+// 0x0000001E System.String Firebase.AppUtilPINVOKE::Firebase_App_AppOptionsInternal_PackageName_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_AppOptionsInternal_PackageName_get_m59E499377BA5E7A12779FABA272A4E2D89ECB07E ();
+// 0x0000001F System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_AppOptionsInternal(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_AppOptionsInternal_mA2059BE5C6D6BC252B1ADF62336E68520262AA07 ();
+// 0x00000020 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_options(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_options_m558AEE708E1E3F1276946DF778B96EAF964C165E ();
+// 0x00000021 System.String Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_NameInternal_get(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_NameInternal_get_m1031D382B1EFF31DB99F4DDE7F85353146871CF7 ();
+// 0x00000022 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_CreateInternal__SWIG_0()
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_CreateInternal__SWIG_0_m7C57AF8D589A0FAB3769762B145C7C822C8B060D ();
+// 0x00000023 System.Void Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_ReleaseReferenceInternal(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_ReleaseReferenceInternal_m8E2DF47124BF1A67C6BB04E57D422AE78BABE3F2 ();
+// 0x00000024 System.Int32 Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_GetLogLevelInternal()
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_GetLogLevelInternal_m124AF04EF8A5F883FB0DFED5ABCB978565FE2201 ();
+// 0x00000025 System.Void Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_RegisterLibraryInternal(System.String,System.String)
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_RegisterLibraryInternal_mC0827EF9ADAE73F66B0FD3481A52BF0CA2B01BD7 ();
+// 0x00000026 System.Void Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_AppSetDefaultConfigPath(System.String)
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_AppSetDefaultConfigPath_m988AC83C2A57803F630DCFD784AC3504636AD8CD ();
+// 0x00000027 System.String Firebase.AppUtilPINVOKE::Firebase_App_FirebaseApp_DefaultName_get()
+extern void AppUtilPINVOKE_Firebase_App_FirebaseApp_DefaultName_get_m4A778152B530BD60EA311A032035B8EE0B88F693 ();
+// 0x00000028 System.Void Firebase.AppUtilPINVOKE::Firebase_App_PollCallbacks()
+extern void AppUtilPINVOKE_Firebase_App_PollCallbacks_m4E579A12C727C9635562303C2F4B253EF091AFA4 ();
+// 0x00000029 System.Void Firebase.AppUtilPINVOKE::Firebase_App_AppEnableLogCallback(System.Boolean)
+extern void AppUtilPINVOKE_Firebase_App_AppEnableLogCallback_m33F371C4266DD2E0F5F6D6D72400234C9892DE3C ();
+// 0x0000002A System.Void Firebase.AppUtilPINVOKE::Firebase_App_SetEnabledAllAppCallbacks(System.Boolean)
+extern void AppUtilPINVOKE_Firebase_App_SetEnabledAllAppCallbacks_mEC3417E8E968F64991558FE9762572962D862FD2 ();
+// 0x0000002B System.Void Firebase.AppUtilPINVOKE::Firebase_App_SetEnabledAppCallbackByName(System.String,System.Boolean)
+extern void AppUtilPINVOKE_Firebase_App_SetEnabledAppCallbackByName_m034823F3747EB6054A3195157A31DE4DA5C21C81 ();
+// 0x0000002C System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_GetEnabledAppCallbackByName(System.String)
+extern void AppUtilPINVOKE_Firebase_App_GetEnabledAppCallbackByName_m9877D632F57AAFEFB397C33A537CDB03797DB7AE ();
+// 0x0000002D System.Void Firebase.AppUtilPINVOKE::Firebase_App_SetLogFunction(Firebase.LogUtil_LogMessageDelegate)
+extern void AppUtilPINVOKE_Firebase_App_SetLogFunction_m22F7150D9129EB4F2FCE20986B379ADBB9C7C3D5 ();
+// 0x0000002E System.Int32 Firebase.AppUtilPINVOKE::Firebase_App_CheckAndroidDependencies()
+extern void AppUtilPINVOKE_Firebase_App_CheckAndroidDependencies_m11DEEEBD38EA2488BBE9B0648DE7990E654D8832 ();
+// 0x0000002F System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FixAndroidDependencies()
+extern void AppUtilPINVOKE_Firebase_App_FixAndroidDependencies_m593B9AC9FA5059F4AA04E8B05F47C4CA923803AB ();
+// 0x00000030 System.Void Firebase.AppUtilPINVOKE::Firebase_App_InitializePlayServicesInternal()
+extern void AppUtilPINVOKE_Firebase_App_InitializePlayServicesInternal_mF0FA115B9481D6612928C24B1D1F763E65B9DF3A ();
+// 0x00000031 System.Void Firebase.AppUtilPINVOKE::Firebase_App_TerminatePlayServicesInternal()
+extern void AppUtilPINVOKE_Firebase_App_TerminatePlayServicesInternal_mF9A244687190CE27599B0617EC881993124A5387 ();
+// 0x00000032 System.UInt32 Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_size(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_size_m2D0765A664247BB989DEAA63C3BFA08FAAB3811A ();
+// 0x00000033 System.Void Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_Clear(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_Clear_mA399FAB5C839C8F73ED73F5E2D49635870B15886 ();
+// 0x00000034 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_getitem(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_getitem_m732356CBB947FA8FA06C510902329CB48C156F95 ();
+// 0x00000035 System.Void Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_setitem(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_setitem_m5BD8C9A75E236C744D00D9BEC28A8E920C613E4F ();
+// 0x00000036 System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_ContainsKey(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_ContainsKey_m111A29439C2C425CECC61A0F2483A60230FDA7BE ();
+// 0x00000037 System.Void Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_Add(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_Add_m429025EB30AF45A3526665E5C038C9AE8D07ED1C ();
+// 0x00000038 System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_Remove(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_Remove_mC09567779DB249BC6BC3743B63A698CC53FCA72C ();
+// 0x00000039 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_create_iterator_begin(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_create_iterator_begin_mF231294A09428ADC5002FB4583CE30B864104C61 ();
+// 0x0000003A System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_get_next_key(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_get_next_key_m2F4A64CB27EE44887A95ACF7395A593D12097F79 ();
+// 0x0000003B System.Void Firebase.AppUtilPINVOKE::Firebase_App_VariantVariantMap_destroy_iterator(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_VariantVariantMap_destroy_iterator_mE4F7CF316BCFDD567E16D111F22F608FA304F700 ();
+// 0x0000003C System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_VariantVariantMap(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_VariantVariantMap_mA2262965855AB5CAD31B1348B7E3A5536E2DD97B ();
+// 0x0000003D System.UInt32 Firebase.AppUtilPINVOKE::Firebase_App_VariantList_size(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_VariantList_size_mF54399753B25058C7E9518558F0EF0450A90CF75 ();
+// 0x0000003E System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_VariantList_getitem(System.Runtime.InteropServices.HandleRef,System.Int32)
+extern void AppUtilPINVOKE_Firebase_App_VariantList_getitem_m898FEFBE4E6677CDB36A940B024FAB848A9A184F ();
+// 0x0000003F System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_VariantList(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_VariantList_mBF1CA5064FB726F1B8288FB99FE056C9BF235D6C ();
+// 0x00000040 System.Void Firebase.AppUtilPINVOKE::Firebase_App_delete_Variant(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_delete_Variant_m321122FF3FBC4FC53E1A99E0FE50F5F52DA03589 ();
+// 0x00000041 System.Int32 Firebase.AppUtilPINVOKE::Firebase_App_Variant_type(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_type_m025204648C4FFE9BED040BCBC8AD21CE9F989261 ();
+// 0x00000042 System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_Variant_is_string(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_is_string_m47C95DDBE15FE6DFE4A593D0F904F058967425EF ();
+// 0x00000043 System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_Variant_is_fundamental_type(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_is_fundamental_type_m46493E8909038197C7A2504671AD4AE0E547C94C ();
+// 0x00000044 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_Variant_AsString(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_AsString_m984F9D28B521D2AEAFADEB3B7BE7DC294C8E5E39 ();
+// 0x00000045 System.UInt32 Firebase.AppUtilPINVOKE::Firebase_App_Variant_blob_size(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_blob_size_m58FC0E9EAF8507EA29C9F63F0A9FD953FE2E6423 ();
+// 0x00000046 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_Variant_vector__SWIG_0(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_vector__SWIG_0_m32CAD5A409097E31BF716049D785E99994A3C9C3 ();
+// 0x00000047 System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_Variant_map__SWIG_0(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_map__SWIG_0_m10DA886D0A8B28D3B7DC74B2137282CDA9C603A9 ();
+// 0x00000048 System.Int64 Firebase.AppUtilPINVOKE::Firebase_App_Variant_int64_value(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_int64_value_m11B23C720F7C7D79468D1FC9ACF9AFD1E7D598BA ();
+// 0x00000049 System.Double Firebase.AppUtilPINVOKE::Firebase_App_Variant_double_value(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_double_value_m07D6F8F1E9789BA286135E17127BA591F4FC1A4A ();
+// 0x0000004A System.Boolean Firebase.AppUtilPINVOKE::Firebase_App_Variant_bool_value(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_bool_value_m1B255D160EFFD5EC9D9F73371EED6991A69A888D ();
+// 0x0000004B System.String Firebase.AppUtilPINVOKE::Firebase_App_Variant_string_value(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_string_value_m598202E49E3058ABF9C38B22216403283FEF3AD4 ();
+// 0x0000004C System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_Variant_untyped_mutable_blob_data(System.Runtime.InteropServices.HandleRef)
+extern void AppUtilPINVOKE_Firebase_App_Variant_untyped_mutable_blob_data_m8C33B9C032C187955F3E1A782CA6CB58977F16F9 ();
+// 0x0000004D System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FutureString_SWIGUpcast(System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_FutureString_SWIGUpcast_m655F974F7F1851714F64ACBF724B3F31D8D64837 ();
+// 0x0000004E System.IntPtr Firebase.AppUtilPINVOKE::Firebase_App_FutureVoid_SWIGUpcast(System.IntPtr)
+extern void AppUtilPINVOKE_Firebase_App_FutureVoid_SWIGUpcast_m8188B9838C9040E39A14508C937F300D0938E137 ();
+// 0x0000004F System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::.cctor()
+extern void SWIGExceptionHelper__cctor_m0CCC85BDED6DE2F7F696C32F04FBFD3AAE6DCABF ();
+// 0x00000050 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::.ctor()
+extern void SWIGExceptionHelper__ctor_m9C08890DD2A3008937470A37320C49FFF3DAED5D ();
+// 0x00000051 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SWIGRegisterExceptionCallbacks_AppUtil(Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_AppUtil_mE2D33D9FA7B93BB5030DCA905D343EA6450F5BAE ();
+// 0x00000052 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SWIGRegisterExceptionCallbacksArgument_AppUtil(Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate,Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_AppUtil_mAD2F9A77CA68FFB83FABFC579B2D13DE235E02E3 ();
+// 0x00000053 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingApplicationException(System.String)
+extern void SWIGExceptionHelper_SetPendingApplicationException_mFE7727F29EF454DC82F7773C7DCA7DC4B9DCE688 ();
+// 0x00000054 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingArithmeticException(System.String)
+extern void SWIGExceptionHelper_SetPendingArithmeticException_m66D325C658E4D4A6F84E8BFF2A532FAAE96D5B5C ();
+// 0x00000055 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingDivideByZeroException(System.String)
+extern void SWIGExceptionHelper_SetPendingDivideByZeroException_mEBC984AA86593D05467BC12012A3E1E33953ADED ();
+// 0x00000056 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingIndexOutOfRangeException(System.String)
+extern void SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mD9473B8DC134A0E6BCE15305DC2E12E53AF6236E ();
+// 0x00000057 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingInvalidCastException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidCastException_mB08BAC65C0DB20E0361AD747E5009B62EAACC5F8 ();
+// 0x00000058 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingInvalidOperationException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidOperationException_mF62073712A93DD7570BEC306E4E2DF6049F31EA9 ();
+// 0x00000059 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingIOException(System.String)
+extern void SWIGExceptionHelper_SetPendingIOException_m59B1FD0225B32443CC0685A249F0A301693C2744 ();
+// 0x0000005A System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingNullReferenceException(System.String)
+extern void SWIGExceptionHelper_SetPendingNullReferenceException_m5F381925BBBE581ADE8384B76FEA7D208B69ED4D ();
+// 0x0000005B System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingOutOfMemoryException(System.String)
+extern void SWIGExceptionHelper_SetPendingOutOfMemoryException_m71E895F1202CBDC1909619B221AC6AB3276D7AF7 ();
+// 0x0000005C System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingOverflowException(System.String)
+extern void SWIGExceptionHelper_SetPendingOverflowException_m8FDE1CE2A3D3EB2DA8C7C12E28DD90C15E84D946 ();
+// 0x0000005D System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingSystemException(System.String)
+extern void SWIGExceptionHelper_SetPendingSystemException_m8EC608208492B67293B9C2AC06D7B85B5B1B26E4 ();
+// 0x0000005E System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingArgumentException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentException_mA47B953C5D09FDB764911484316FFDAAB4B0BE4A ();
+// 0x0000005F System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingArgumentNullException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentNullException_m1DAEF08C4FAD2181E64B920B843C903538D09327 ();
+// 0x00000060 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper::SetPendingArgumentOutOfRangeException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m2DDA9CC01A5B010A4D682F0615F89EFEA2D3A385 ();
+// 0x00000061 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionDelegate__ctor_mFA7CF73187B3CCF3692F0FAEB489B4C033D031C4 ();
+// 0x00000062 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate::Invoke(System.String)
+extern void ExceptionDelegate_Invoke_m7736AAF7D7D6C5399A9681591A6CA552951B15E5 ();
+// 0x00000063 System.IAsyncResult Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void ExceptionDelegate_BeginInvoke_m3B6B207EBEB006B8DE9F69A45479252765D12C61 ();
+// 0x00000064 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionDelegate_EndInvoke_m1FD77871632D606344B416763FAC1913243AEFB8 ();
+// 0x00000065 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionArgumentDelegate__ctor_m91C0CA33EFF5FCC3CE1D6355C042911404158888 ();
+// 0x00000066 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate::Invoke(System.String,System.String)
+extern void ExceptionArgumentDelegate_Invoke_m1C77849554DD44FAE777ED68077C13ABF59ADE43 ();
+// 0x00000067 System.IAsyncResult Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate::BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+extern void ExceptionArgumentDelegate_BeginInvoke_mEB25DD9E17F86D1A233BA5EF1E395FD625312881 ();
+// 0x00000068 System.Void Firebase.AppUtilPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionArgumentDelegate_EndInvoke_m77D70EC503C4674AF2D8B2EB7558954A80B31369 ();
+// 0x00000069 System.Boolean Firebase.AppUtilPINVOKE_SWIGPendingException::get_Pending()
+extern void SWIGPendingException_get_Pending_m368C58F7DD3C0618543462CD68806FE1EF98FCDC ();
+// 0x0000006A System.Void Firebase.AppUtilPINVOKE_SWIGPendingException::Set(System.Exception)
+extern void SWIGPendingException_Set_m86001767F702444249A31BCD88319B9B3F6F9393 ();
+// 0x0000006B System.Exception Firebase.AppUtilPINVOKE_SWIGPendingException::Retrieve()
+extern void SWIGPendingException_Retrieve_m56CE138BBD1EB5BCCF31BD13DFB22AB78FBA8DB1 ();
+// 0x0000006C System.Void Firebase.AppUtilPINVOKE_SWIGStringHelper::.cctor()
+extern void SWIGStringHelper__cctor_mB179B7CB11DDEA60FCC60E324B32E47BDBA6E4B9 ();
+// 0x0000006D System.Void Firebase.AppUtilPINVOKE_SWIGStringHelper::.ctor()
+extern void SWIGStringHelper__ctor_m9853D7D1C99D3DCD1F6F2506963B5717C6BC7B8C ();
+// 0x0000006E System.Void Firebase.AppUtilPINVOKE_SWIGStringHelper::SWIGRegisterStringCallback_AppUtil(Firebase.AppUtilPINVOKE_SWIGStringHelper_SWIGStringDelegate)
+extern void SWIGStringHelper_SWIGRegisterStringCallback_AppUtil_mF30163D65D26AD200AEA5C9047A2EBFE1835E836 ();
+// 0x0000006F System.String Firebase.AppUtilPINVOKE_SWIGStringHelper::CreateString(System.String)
+extern void SWIGStringHelper_CreateString_mF4B58DD5B3526C5E91D71786D528CC4ADADCF243 ();
+// 0x00000070 System.Void Firebase.AppUtilPINVOKE_SWIGStringHelper_SWIGStringDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIGStringDelegate__ctor_mFF996766F91D11AC79C2D81A824FDA4E6196E156 ();
+// 0x00000071 System.String Firebase.AppUtilPINVOKE_SWIGStringHelper_SWIGStringDelegate::Invoke(System.String)
+extern void SWIGStringDelegate_Invoke_m1A7283ABE06BABDF3A6B0EE1F52D6D32EA7F042C ();
+// 0x00000072 System.IAsyncResult Firebase.AppUtilPINVOKE_SWIGStringHelper_SWIGStringDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void SWIGStringDelegate_BeginInvoke_m9EFB7B39A0A45119085366E165D79F0E6429A2F5 ();
+// 0x00000073 System.String Firebase.AppUtilPINVOKE_SWIGStringHelper_SWIGStringDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIGStringDelegate_EndInvoke_m5433E9F970EFADE7E402CA0693BB4019B31FC721 ();
+// 0x00000074 System.Void Firebase.AppUtil::PollCallbacks()
+extern void AppUtil_PollCallbacks_mADFB4BC7209554590C31E37F8C08562E463F9D59 ();
+// 0x00000075 System.Void Firebase.AppUtil::AppEnableLogCallback(System.Boolean)
+extern void AppUtil_AppEnableLogCallback_m9FA92B86E6A3653121CBD5C2CA2DDD2C31B2BF04 ();
+// 0x00000076 System.Void Firebase.AppUtil::SetEnabledAllAppCallbacks(System.Boolean)
+extern void AppUtil_SetEnabledAllAppCallbacks_mC850A20177310AC3A44E421CB2F3C0ECE1CC9574 ();
+// 0x00000077 System.Void Firebase.AppUtil::SetEnabledAppCallbackByName(System.String,System.Boolean)
+extern void AppUtil_SetEnabledAppCallbackByName_m98EF16C68B04D64D2CBB59FE074711D5A06B3BD7 ();
+// 0x00000078 System.Boolean Firebase.AppUtil::GetEnabledAppCallbackByName(System.String)
+extern void AppUtil_GetEnabledAppCallbackByName_m2C063D950392679E20AD11BD5169956A02E78FF1 ();
+// 0x00000079 System.Void Firebase.AppUtil::SetLogFunction(Firebase.LogUtil_LogMessageDelegate)
+extern void AppUtil_SetLogFunction_m2FD7E09A6AED976A0754E2E993786AAA5834B084 ();
+// 0x0000007A Firebase.GooglePlayServicesAvailability Firebase.AppUtil::CheckAndroidDependencies()
+extern void AppUtil_CheckAndroidDependencies_m7B59594562BE9CD80D3DF9453902AB517957E709 ();
+// 0x0000007B System.Threading.Tasks.Task Firebase.AppUtil::FixAndroidDependenciesAsync()
+extern void AppUtil_FixAndroidDependenciesAsync_m484806C832588B0F28C396AF58C0223B2FE9789E ();
+// 0x0000007C System.Void Firebase.AppUtil::InitializePlayServicesInternal()
+extern void AppUtil_InitializePlayServicesInternal_m9A6D4067BB6C29F8CC939A78E56432CF5ECFD930 ();
+// 0x0000007D System.Void Firebase.AppUtil::TerminatePlayServicesInternal()
+extern void AppUtil_TerminatePlayServicesInternal_mBE1327FFCC0B92A4C4534DBABF0E862E9C452434 ();
+// 0x0000007E System.Void Firebase.Variant::.ctor(System.IntPtr,System.Boolean)
+extern void Variant__ctor_m8DA03321AF412FB90368F016FC27122354ED1661 ();
+// 0x0000007F System.Runtime.InteropServices.HandleRef Firebase.Variant::getCPtr(Firebase.Variant)
+extern void Variant_getCPtr_m9C98A58CB0FA198CFD1630941A2C877A53F1903A ();
+// 0x00000080 System.Void Firebase.Variant::Finalize()
+extern void Variant_Finalize_mEF9CD860CA2A1B572A54662A35529888EE8D4E77 ();
+// 0x00000081 System.Void Firebase.Variant::Dispose()
+extern void Variant_Dispose_mF8CD2B2067D95E294E5AB1E354D3DA66A9BF28F3 ();
+// 0x00000082 System.Byte[] Firebase.Variant::blob_as_bytes()
+extern void Variant_blob_as_bytes_m3A07C9021F60A5DFBBDD524FA6E526E3737B041D ();
+// 0x00000083 Firebase.Variant_Type Firebase.Variant::type()
+extern void Variant_type_m237110F063090CCDCF499E8B91AB4AC52E29225E ();
+// 0x00000084 System.Boolean Firebase.Variant::is_string()
+extern void Variant_is_string_m04FAAA80BD710A30454AD8E18909F71C12271DE5 ();
+// 0x00000085 System.Boolean Firebase.Variant::is_fundamental_type()
+extern void Variant_is_fundamental_type_mCE75EB5B40B5E642B22F362D436A6F2F4B1BCD9D ();
+// 0x00000086 Firebase.Variant Firebase.Variant::AsString()
+extern void Variant_AsString_m354B25D084CFE83259CC9C6695E15E6ADA295C6A ();
+// 0x00000087 System.UInt32 Firebase.Variant::blob_size()
+extern void Variant_blob_size_m7964088C6CAFD1154D158553A55B3198AF11447B ();
+// 0x00000088 Firebase.VariantList Firebase.Variant::vector()
+extern void Variant_vector_mA17CC5559B0A3CB065FEDA0ACA5B58341419541D ();
+// 0x00000089 Firebase.VariantVariantMap Firebase.Variant::map()
+extern void Variant_map_mA71EB992CEB4425C757447916849C1316845D347 ();
+// 0x0000008A System.Int64 Firebase.Variant::int64_value()
+extern void Variant_int64_value_mBDF2EF7DE50D4D828732032C827D6194AA61DBDD ();
+// 0x0000008B System.Double Firebase.Variant::double_value()
+extern void Variant_double_value_mCEBE4AE0B3ECEA48A8B76B18B6C9D4B3FBA0B46F ();
+// 0x0000008C System.Boolean Firebase.Variant::bool_value()
+extern void Variant_bool_value_m2CE9E542E99D99D1B52A227400BDBA838E5FA8FA ();
+// 0x0000008D System.String Firebase.Variant::string_value()
+extern void Variant_string_value_mDF4E85BE3F3FD113F983FD9FD3BCF4482BE33BEA ();
+// 0x0000008E System.IntPtr Firebase.Variant::untyped_mutable_blob_data()
+extern void Variant_untyped_mutable_blob_data_m1983141EC0719A782B7BAAABDAA6DB011C80360E ();
+// 0x0000008F System.Void Firebase.VariantList::.ctor(System.IntPtr,System.Boolean)
+extern void VariantList__ctor_mAC9841D5BB44580BB99A3EFC7BD88501FFB23911 ();
+// 0x00000090 System.Void Firebase.VariantList::Finalize()
+extern void VariantList_Finalize_mCF53DB8C4E76CC13D67A4F99740625AE68EB4E48 ();
+// 0x00000091 System.Void Firebase.VariantList::Dispose()
+extern void VariantList_Dispose_m220A30BB4B6BD4EAB5F81E99568473AD1F7630A4 ();
+// 0x00000092 Firebase.Variant Firebase.VariantList::get_Item(System.Int32)
+extern void VariantList_get_Item_m5462DFF366ED9E22B02C4B7A9E7B9C7BA7036559 ();
+// 0x00000093 System.Int32 Firebase.VariantList::get_Count()
+extern void VariantList_get_Count_m1386B2F13D323433E7564F0477ECAFF1253F6D3E ();
+// 0x00000094 System.Collections.Generic.IEnumerator`1<Firebase.Variant> Firebase.VariantList::System.Collections.Generic.IEnumerable<Firebase.Variant>.GetEnumerator()
+extern void VariantList_System_Collections_Generic_IEnumerableU3CFirebase_VariantU3E_GetEnumerator_m1087E204688F74C2F7170B3996AEA75625DE57D6 ();
+// 0x00000095 System.Collections.IEnumerator Firebase.VariantList::System.Collections.IEnumerable.GetEnumerator()
+extern void VariantList_System_Collections_IEnumerable_GetEnumerator_mF266EA03B5B64DC230AC6235B8A23268723C34D9 ();
+// 0x00000096 Firebase.VariantList_VariantListEnumerator Firebase.VariantList::GetEnumerator()
+extern void VariantList_GetEnumerator_m5247A211DC8BF73B15D2AC923DA46F90820A0C94 ();
+// 0x00000097 System.UInt32 Firebase.VariantList::size()
+extern void VariantList_size_mD8FCB1537686E311DCF2C8B1378F531EC7DA8198 ();
+// 0x00000098 Firebase.Variant Firebase.VariantList::getitem(System.Int32)
+extern void VariantList_getitem_m5B1FF1C74166E99CB95CBB13B962361BB74124D7 ();
+// 0x00000099 System.Void Firebase.VariantList_VariantListEnumerator::.ctor(Firebase.VariantList)
+extern void VariantListEnumerator__ctor_m4379DDC00D5738988103662A6D3BBAF4D5B79B68 ();
+// 0x0000009A Firebase.Variant Firebase.VariantList_VariantListEnumerator::get_Current()
+extern void VariantListEnumerator_get_Current_m00C53C292932E239C3F7C571A7F6AE6F1ADE6188 ();
+// 0x0000009B System.Object Firebase.VariantList_VariantListEnumerator::System.Collections.IEnumerator.get_Current()
+extern void VariantListEnumerator_System_Collections_IEnumerator_get_Current_m0A6A6F45567FA1B3278DB23BC2FD28952FF46E3A ();
+// 0x0000009C System.Boolean Firebase.VariantList_VariantListEnumerator::MoveNext()
+extern void VariantListEnumerator_MoveNext_m26AC810FCEE6B8470E0DC2B32F75FEBDC5E1B9B4 ();
+// 0x0000009D System.Void Firebase.VariantList_VariantListEnumerator::Reset()
+extern void VariantListEnumerator_Reset_m1B07934D78A77A9B5946D22B1A05BAF189C0D448 ();
+// 0x0000009E System.Void Firebase.VariantList_VariantListEnumerator::Dispose()
+extern void VariantListEnumerator_Dispose_mB055615C811E570E2CF094C979A80B797C4CAF2C ();
+// 0x0000009F System.Void Firebase.VariantVariantMap::.ctor(System.IntPtr,System.Boolean)
+extern void VariantVariantMap__ctor_mCE9365D5D77B777730E02118231C4B1F1F7915FD ();
+// 0x000000A0 System.Void Firebase.VariantVariantMap::Finalize()
+extern void VariantVariantMap_Finalize_mD624A2B846A4641AC6C2EA58287B8027B88E5C88 ();
+// 0x000000A1 System.Void Firebase.VariantVariantMap::Dispose()
+extern void VariantVariantMap_Dispose_m072B15476C4521D5FD75316AE03C5B7F20EC0FD5 ();
+// 0x000000A2 Firebase.Variant Firebase.VariantVariantMap::get_Item(Firebase.Variant)
+extern void VariantVariantMap_get_Item_mC1321899366F0A680F9271BB53186A5DF3F4C9C7 ();
+// 0x000000A3 System.Void Firebase.VariantVariantMap::set_Item(Firebase.Variant,Firebase.Variant)
+extern void VariantVariantMap_set_Item_m38747790B2666BEF75382FF031306C36E5F328A3 ();
+// 0x000000A4 System.Boolean Firebase.VariantVariantMap::TryGetValue(Firebase.Variant,Firebase.Variant&)
+extern void VariantVariantMap_TryGetValue_m7E1A3D6319DBDC6556BC644C22871F740F846F4D ();
+// 0x000000A5 System.Int32 Firebase.VariantVariantMap::get_Count()
+extern void VariantVariantMap_get_Count_mA9C8A8C93EAE3637E11BEB0C79A6C3885DBA988B ();
+// 0x000000A6 System.Boolean Firebase.VariantVariantMap::get_IsReadOnly()
+extern void VariantVariantMap_get_IsReadOnly_mD30B2D61F2D97AF495F0201F07B742F1386D5123 ();
+// 0x000000A7 System.Collections.Generic.ICollection`1<Firebase.Variant> Firebase.VariantVariantMap::get_Keys()
+extern void VariantVariantMap_get_Keys_mC81E77F1763B8626747F459FD0D264C3E84D5739 ();
+// 0x000000A8 System.Void Firebase.VariantVariantMap::Add(System.Collections.Generic.KeyValuePair`2<Firebase.Variant,Firebase.Variant>)
+extern void VariantVariantMap_Add_mFFEFE4E07324213241785224FB2572BAB3DC9EEE ();
+// 0x000000A9 System.Boolean Firebase.VariantVariantMap::Remove(System.Collections.Generic.KeyValuePair`2<Firebase.Variant,Firebase.Variant>)
+extern void VariantVariantMap_Remove_m49D9A68F5E176EBB96820A31457791A004BC94BF ();
+// 0x000000AA System.Boolean Firebase.VariantVariantMap::Contains(System.Collections.Generic.KeyValuePair`2<Firebase.Variant,Firebase.Variant>)
+extern void VariantVariantMap_Contains_m8E0BA83A8C1847FA10EEDDEF619BD96A10E04762 ();
+// 0x000000AB System.Void Firebase.VariantVariantMap::CopyTo(System.Collections.Generic.KeyValuePair`2<Firebase.Variant,Firebase.Variant>[],System.Int32)
+extern void VariantVariantMap_CopyTo_mA602E5A6DF89DA0E007B1880C7CA0FC5CEA8656E ();
+// 0x000000AC System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<Firebase.Variant,Firebase.Variant>> Firebase.VariantVariantMap::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<Firebase.Variant,Firebase.Variant>>.GetEnumerator()
+extern void VariantVariantMap_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CFirebase_VariantU2CFirebase_VariantU3EU3E_GetEnumerator_mFDADE9E70F426F9D211AD5A1D92902CDCC1FFBCB ();
+// 0x000000AD System.Collections.IEnumerator Firebase.VariantVariantMap::System.Collections.IEnumerable.GetEnumerator()
+extern void VariantVariantMap_System_Collections_IEnumerable_GetEnumerator_m08A558DC6F11A5D8C49FF09F29CF9997990D0403 ();
+// 0x000000AE Firebase.VariantVariantMap_VariantVariantMapEnumerator Firebase.VariantVariantMap::GetEnumerator()
+extern void VariantVariantMap_GetEnumerator_mA0C75AD922D449AE1B854CB824CC2275DCC7BB5B ();
+// 0x000000AF System.UInt32 Firebase.VariantVariantMap::size()
+extern void VariantVariantMap_size_mC2A6221965BB05BCE8CD3B24444AE535B06A64DE ();
+// 0x000000B0 System.Void Firebase.VariantVariantMap::Clear()
+extern void VariantVariantMap_Clear_mF8797D1D980E7D9937D44B3F67E5E33C5F8E86BB ();
+// 0x000000B1 Firebase.Variant Firebase.VariantVariantMap::getitem(Firebase.Variant)
+extern void VariantVariantMap_getitem_m639D4FFAEEB727EEB183DCDED03DD2C6DE8BBB20 ();
+// 0x000000B2 System.Void Firebase.VariantVariantMap::setitem(Firebase.Variant,Firebase.Variant)
+extern void VariantVariantMap_setitem_mD891C188FE648C86511F98E19169108E1916AFD7 ();
+// 0x000000B3 System.Boolean Firebase.VariantVariantMap::ContainsKey(Firebase.Variant)
+extern void VariantVariantMap_ContainsKey_mA8AD74127002F185C4935A72E135D650EAD65A6E ();
+// 0x000000B4 System.Void Firebase.VariantVariantMap::Add(Firebase.Variant,Firebase.Variant)
+extern void VariantVariantMap_Add_mA70F93622505D9AC5282EE765FEF64D837B95892 ();
+// 0x000000B5 System.Boolean Firebase.VariantVariantMap::Remove(Firebase.Variant)
+extern void VariantVariantMap_Remove_mB3FF3CA249B298CA2666922F89B6A3497F195E44 ();
+// 0x000000B6 System.IntPtr Firebase.VariantVariantMap::create_iterator_begin()
+extern void VariantVariantMap_create_iterator_begin_mDAF2D41D46CB21CCC12CD71EDC4352EAD946C72C ();
+// 0x000000B7 Firebase.Variant Firebase.VariantVariantMap::get_next_key(System.IntPtr)
+extern void VariantVariantMap_get_next_key_m3B699C7F2EEC4CE894B30D4C61BD558E2C076CEF ();
+// 0x000000B8 System.Void Firebase.VariantVariantMap::destroy_iterator(System.IntPtr)
+extern void VariantVariantMap_destroy_iterator_m9A619B3361762E2B2C21013F13A76C4E8BB6CCB1 ();
+// 0x000000B9 System.Void Firebase.VariantVariantMap_VariantVariantMapEnumerator::.ctor(Firebase.VariantVariantMap)
+extern void VariantVariantMapEnumerator__ctor_m68187770F5208062635A5A7034E94B037F89F511 ();
+// 0x000000BA System.Collections.Generic.KeyValuePair`2<Firebase.Variant,Firebase.Variant> Firebase.VariantVariantMap_VariantVariantMapEnumerator::get_Current()
+extern void VariantVariantMapEnumerator_get_Current_mAEBF3664E06D2F486CE9BB3FA991F0F5BFA17847 ();
+// 0x000000BB System.Object Firebase.VariantVariantMap_VariantVariantMapEnumerator::System.Collections.IEnumerator.get_Current()
+extern void VariantVariantMapEnumerator_System_Collections_IEnumerator_get_Current_mCF3072D42E15A6D444DC157307DBFD25F97FD9B3 ();
+// 0x000000BC System.Boolean Firebase.VariantVariantMap_VariantVariantMapEnumerator::MoveNext()
+extern void VariantVariantMapEnumerator_MoveNext_mCA89357B393AF1641608253325B6E8FC540C333D ();
+// 0x000000BD System.Void Firebase.VariantVariantMap_VariantVariantMapEnumerator::Reset()
+extern void VariantVariantMapEnumerator_Reset_m6FB58016E9B991FBA36DC4CB91F100A6BD9014F1 ();
+// 0x000000BE System.Void Firebase.VariantVariantMap_VariantVariantMapEnumerator::Dispose()
+extern void VariantVariantMapEnumerator_Dispose_m630105782EE0AE0E7094582CBA9A8EA6FE56009E ();
+// 0x000000BF System.Void Firebase.FirebaseApp::.ctor(System.IntPtr,System.Boolean)
+extern void FirebaseApp__ctor_mECDB71535A9846F085CD59C6EA9261E640FE127A ();
+// 0x000000C0 System.Void Firebase.FirebaseApp::.cctor()
+extern void FirebaseApp__cctor_m977F4273E73E9960D8B02660FAB2D1B457AD8F35 ();
+// 0x000000C1 System.Runtime.InteropServices.HandleRef Firebase.FirebaseApp::getCPtr(Firebase.FirebaseApp)
+extern void FirebaseApp_getCPtr_mF922A07C69469D0EB5A268A9278C495805BDCA4F ();
+// 0x000000C2 System.Void Firebase.FirebaseApp::Finalize()
+extern void FirebaseApp_Finalize_m3CA0CC2B785DE13BAEB66246FEC4A3022A0DD98C ();
+// 0x000000C3 System.Void Firebase.FirebaseApp::Dispose()
+extern void FirebaseApp_Dispose_m633E7DCA88EC8FEDEB70D80B5A60CA4CF2AD6460 ();
+// 0x000000C4 System.Void Firebase.FirebaseApp::TranslateDllNotFoundException(System.Action)
+extern void FirebaseApp_TranslateDllNotFoundException_mC6F04F02034B21A8A258012156CA7F263FB594F6 ();
+// 0x000000C5 Firebase.FirebaseApp Firebase.FirebaseApp::get_DefaultInstance()
+extern void FirebaseApp_get_DefaultInstance_m46ACEAEC916D0AC3014302498F51607462EE5C63 ();
+// 0x000000C6 Firebase.FirebaseApp Firebase.FirebaseApp::GetInstance(System.String)
+extern void FirebaseApp_GetInstance_m0C93898925E16C167E18D8F8351ECC375A46C75C ();
+// 0x000000C7 Firebase.FirebaseApp Firebase.FirebaseApp::Create()
+extern void FirebaseApp_Create_m3ED22D074FC30B7DF31369F927C221AA9B6B1500 ();
+// 0x000000C8 System.String Firebase.FirebaseApp::get_Name()
+extern void FirebaseApp_get_Name_mB5E945165A8F7DFAA21F0AD3A9E99CC3438943C5 ();
+// 0x000000C9 Firebase.LogLevel Firebase.FirebaseApp::get_LogLevel()
+extern void FirebaseApp_get_LogLevel_mA1462E02A6B78D0F598CF9D3F22CAF13D9E29E8D ();
+// 0x000000CA System.Void Firebase.FirebaseApp::add_AppDisposed(System.EventHandler)
+extern void FirebaseApp_add_AppDisposed_m1CA5C0D303E4A5536DFDBE3356A900B3B966D4B6 ();
+// 0x000000CB System.Void Firebase.FirebaseApp::remove_AppDisposed(System.EventHandler)
+extern void FirebaseApp_remove_AppDisposed_mE9EBC4903F93C997C038F8B12940A3D658624EA9 ();
+// 0x000000CC System.Void Firebase.FirebaseApp::AddReference()
+extern void FirebaseApp_AddReference_m4E500E124497E17C5C4964F2CAEBDEB2ED3E8680 ();
+// 0x000000CD System.Void Firebase.FirebaseApp::RemoveReference()
+extern void FirebaseApp_RemoveReference_m82863E170CCFE42B64CE8B39E639570B549CC4AD ();
+// 0x000000CE System.Void Firebase.FirebaseApp::ThrowIfNull()
+extern void FirebaseApp_ThrowIfNull_m3502997B4E18EB792AD9ACE01EC5137CD9639E37 ();
+// 0x000000CF System.Void Firebase.FirebaseApp::InitializeAppUtilCallbacks()
+extern void FirebaseApp_InitializeAppUtilCallbacks_mB1F7BFC4360EAFCA4E1726B81452753734568FE8 ();
+// 0x000000D0 System.Void Firebase.FirebaseApp::OnAllAppsDestroyed()
+extern void FirebaseApp_OnAllAppsDestroyed_m7C30233D9A14F2C241F723C40A62E739D6A9453B ();
+// 0x000000D1 System.Uri Firebase.FirebaseApp::UrlStringToUri(System.String)
+extern void FirebaseApp_UrlStringToUri_m09F6D262D86EE9898214D35510E1E8CEBF53D0DA ();
+// 0x000000D2 System.Object Firebase.FirebaseApp::WeakReferenceGetTarget(System.WeakReference)
+extern void FirebaseApp_WeakReferenceGetTarget_mC676B673AB674077A1A40272E96E51C5A25DC30A ();
+// 0x000000D3 System.Boolean Firebase.FirebaseApp::InitializeCrashlyticsIfPresent()
+extern void FirebaseApp_InitializeCrashlyticsIfPresent_mEC7562503FC321F112B1B90E0C7709175C1BA786 ();
+// 0x000000D4 Firebase.FirebaseApp Firebase.FirebaseApp::CreateAndTrack(Firebase.FirebaseApp_CreateDelegate,Firebase.FirebaseApp)
+extern void FirebaseApp_CreateAndTrack_m9432CF67F169FAFC2D57F7C8E2460CBE174CB6F7 ();
+// 0x000000D5 System.Void Firebase.FirebaseApp::SetCheckDependenciesThread(System.Int32)
+extern void FirebaseApp_SetCheckDependenciesThread_m23DF7E2FA98074CB3D3E6E4D153E043DB926F121 ();
+// 0x000000D6 System.Void Firebase.FirebaseApp::ThrowIfCheckDependenciesRunning()
+extern void FirebaseApp_ThrowIfCheckDependenciesRunning_m146122F83C37BC92E9D26A680740ACE69176D3F3 ();
+// 0x000000D7 System.Boolean Firebase.FirebaseApp::IsCheckDependenciesRunning()
+extern void FirebaseApp_IsCheckDependenciesRunning_mE1A442A699DB9BEDC328975FC56B51C3769A6B8D ();
+// 0x000000D8 System.Threading.Tasks.Task`1<Firebase.DependencyStatus> Firebase.FirebaseApp::CheckDependenciesAsync()
+extern void FirebaseApp_CheckDependenciesAsync_m99845C6FA3EFE0EA049E677F9A09165879189079 ();
+// 0x000000D9 System.Threading.Tasks.Task`1<Firebase.DependencyStatus> Firebase.FirebaseApp::CheckAndFixDependenciesAsync()
+extern void FirebaseApp_CheckAndFixDependenciesAsync_mC7E05ACB10DB290C103182B2EE15BAC65DA8D56B ();
+// 0x000000DA Firebase.DependencyStatus Firebase.FirebaseApp::CheckDependencies()
+extern void FirebaseApp_CheckDependencies_m963CF77BD932E865F23A265CC7C5480869DC688D ();
+// 0x000000DB Firebase.DependencyStatus Firebase.FirebaseApp::CheckDependenciesInternal()
+extern void FirebaseApp_CheckDependenciesInternal_m1AFAB4F2D0ACCFA130138225DE02A685FC223706 ();
+// 0x000000DC System.Threading.Tasks.Task Firebase.FirebaseApp::FixDependenciesAsync()
+extern void FirebaseApp_FixDependenciesAsync_mB10B77A9EE97F9C62541139B302DD3C747CBCE4B ();
+// 0x000000DD System.Void Firebase.FirebaseApp::ResetDefaultAppCPtr()
+extern void FirebaseApp_ResetDefaultAppCPtr_m30908CCAB44988219373DA88535C77157C25215A ();
+// 0x000000DE Firebase.AppOptions Firebase.FirebaseApp::get_Options()
+extern void FirebaseApp_get_Options_mDD4642CC794D4339D5AF6CC2A3607A9FE52F81E6 ();
+// 0x000000DF Firebase.Platform.FirebaseAppPlatform Firebase.FirebaseApp::get_AppPlatform()
+extern void FirebaseApp_get_AppPlatform_m6F308A08C9294CB4D8191CAA2A0410E22A039934 ();
+// 0x000000E0 Firebase.AppOptionsInternal Firebase.FirebaseApp::options()
+extern void FirebaseApp_options_m72A1560C41F3822AC08EC57C8B2D6FBB4248EE1B ();
+// 0x000000E1 System.String Firebase.FirebaseApp::get_NameInternal()
+extern void FirebaseApp_get_NameInternal_m2752D24CD4D632B51C27AA926E3527828A19B6A2 ();
+// 0x000000E2 Firebase.FirebaseApp Firebase.FirebaseApp::CreateInternal()
+extern void FirebaseApp_CreateInternal_m039014CF3B7DB1B092068767F49B9E0C9D9C11D6 ();
+// 0x000000E3 System.Void Firebase.FirebaseApp::ReleaseReferenceInternal(Firebase.FirebaseApp)
+extern void FirebaseApp_ReleaseReferenceInternal_mDDCBE7D04450E4A53C0708998720842CC840EF07 ();
+// 0x000000E4 System.Void Firebase.FirebaseApp::RegisterLibraryInternal(System.String,System.String)
+extern void FirebaseApp_RegisterLibraryInternal_m33F0D35CAD2A634673F6A9D1610E0122FFB88637 ();
+// 0x000000E5 System.Void Firebase.FirebaseApp::AppSetDefaultConfigPath(System.String)
+extern void FirebaseApp_AppSetDefaultConfigPath_m53566882606C7038E0C2E2AD4182628B50D96F80 ();
+// 0x000000E6 System.String Firebase.FirebaseApp::get_DefaultName()
+extern void FirebaseApp_get_DefaultName_mBA7DA11C2791078BAA59206A945890E958546168 ();
+// 0x000000E7 Firebase.FirebaseApp Firebase.FirebaseApp::<Create>m__0()
+extern void FirebaseApp_U3CCreateU3Em__0_mD5F1CE4EE3725E0E57705E4941C5E38BCBB0C518 ();
+// 0x000000E8 System.Boolean Firebase.FirebaseApp::<CreateAndTrack>m__1()
+extern void FirebaseApp_U3CCreateAndTrackU3Em__1_mF4B85EE912269BF441F99AF1E4E7881443CD7C75 ();
+// 0x000000E9 Firebase.DependencyStatus Firebase.FirebaseApp::<CheckDependenciesAsync>m__2()
+extern void FirebaseApp_U3CCheckDependenciesAsyncU3Em__2_m3A94D60BB5ADB50A8E5F3E2E198BB488EF6D3749 ();
+// 0x000000EA System.Threading.Tasks.Task`1<Firebase.DependencyStatus> Firebase.FirebaseApp::<CheckAndFixDependenciesAsync>m__3(System.Threading.Tasks.Task`1<Firebase.DependencyStatus>)
+extern void FirebaseApp_U3CCheckAndFixDependenciesAsyncU3Em__3_m3A74A441315B16BF407F63DF51E6FD3C10C3AEEB ();
+// 0x000000EB System.Threading.Tasks.Task`1<Firebase.DependencyStatus> Firebase.FirebaseApp::<CheckAndFixDependenciesAsync>m__4(System.Threading.Tasks.Task)
+extern void FirebaseApp_U3CCheckAndFixDependenciesAsyncU3Em__4_m8F137EC21BF1DA9B84A2E133F4CE0E4F5ACAF1C6 ();
+// 0x000000EC System.Void Firebase.FirebaseApp_EnableModuleParams::.ctor(System.String,System.String,System.Boolean)
+extern void EnableModuleParams__ctor_mC0CF508919EF04A896578538EAF80B4A6E58E750 ();
+// 0x000000ED System.String Firebase.FirebaseApp_EnableModuleParams::get_CppModuleName()
+extern void EnableModuleParams_get_CppModuleName_m53DB9B2D254E157BB2311782D33920853A6BF042 ();
+// 0x000000EE System.Void Firebase.FirebaseApp_EnableModuleParams::set_CppModuleName(System.String)
+extern void EnableModuleParams_set_CppModuleName_mA30925B48F2CE52E2E237F262F82FF7830CCE0A5 ();
+// 0x000000EF System.String Firebase.FirebaseApp_EnableModuleParams::get_CSharpClassName()
+extern void EnableModuleParams_get_CSharpClassName_m652F90B63BD3DAA082A938D4CB58AD2BC6759F44 ();
+// 0x000000F0 System.Void Firebase.FirebaseApp_EnableModuleParams::set_CSharpClassName(System.String)
+extern void EnableModuleParams_set_CSharpClassName_m85BFA74C1608D81B49D7D5C45B297B76CCEE20F3 ();
+// 0x000000F1 System.Boolean Firebase.FirebaseApp_EnableModuleParams::get_AlwaysEnable()
+extern void EnableModuleParams_get_AlwaysEnable_m19451C262F0380C6DB2D8AAE316830AD8E7B1870 ();
+// 0x000000F2 System.Void Firebase.FirebaseApp_EnableModuleParams::set_AlwaysEnable(System.Boolean)
+extern void EnableModuleParams_set_AlwaysEnable_m7636D0CA28BE95D6F25261C8CEA5651AC5A47F84 ();
+// 0x000000F3 System.Void Firebase.FirebaseApp_CreateDelegate::.ctor(System.Object,System.IntPtr)
+extern void CreateDelegate__ctor_mA279FA3C2C3D5F9376130804EE01BB8DEDF9584D ();
+// 0x000000F4 Firebase.FirebaseApp Firebase.FirebaseApp_CreateDelegate::Invoke()
+extern void CreateDelegate_Invoke_mFDC361DD320C47E8E5BB468EFAB257D7C23C3EE3 ();
+// 0x000000F5 System.IAsyncResult Firebase.FirebaseApp_CreateDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void CreateDelegate_BeginInvoke_m832557D650F491C3E737680DD6D983BBF49F1FCB ();
+// 0x000000F6 Firebase.FirebaseApp Firebase.FirebaseApp_CreateDelegate::EndInvoke(System.IAsyncResult)
+extern void CreateDelegate_EndInvoke_mE0EC3F88C1250F6364F70AAC536380B1EE29E4AB ();
+// 0x000000F7 System.Void Firebase.FirebaseApp_<CheckDependencies>c__AnonStorey2::.ctor()
+extern void U3CCheckDependenciesU3Ec__AnonStorey2__ctor_mFA98DB6CB10D1D4F895A9CE8E37244984CEAAA9A ();
+// 0x000000F8 System.Void Firebase.FirebaseApp_<CheckDependencies>c__AnonStorey2::<>m__0()
+extern void U3CCheckDependenciesU3Ec__AnonStorey2_U3CU3Em__0_m30BCA55FB6D54EFA865A3C53D3653016E930C51D ();
+// 0x000000F9 System.Void Firebase.FirebaseApp_<FixDependenciesAsync>c__AnonStorey3::.ctor()
+extern void U3CFixDependenciesAsyncU3Ec__AnonStorey3__ctor_mB8F3AC8FC03726C395087E62AD9A8A43D754E7E9 ();
+// 0x000000FA System.Void Firebase.FirebaseApp_<FixDependenciesAsync>c__AnonStorey3::<>m__0()
+extern void U3CFixDependenciesAsyncU3Ec__AnonStorey3_U3CU3Em__0_m674CDFEC2C442870C4205CC1977D9C9011DAE156 ();
+// 0x000000FB System.Void Firebase.FirebaseApp_<FixDependenciesAsync>c__AnonStorey3::<>m__1(System.Threading.Tasks.Task)
+extern void U3CFixDependenciesAsyncU3Ec__AnonStorey3_U3CU3Em__1_m794722423FE1272C4D03C4F958CCB0519411AE93 ();
+// 0x000000FC System.Void Firebase.AppOptionsInternal::.ctor(System.IntPtr,System.Boolean)
+extern void AppOptionsInternal__ctor_m0B3AED5F7890CC165932B67931DC3B625F018F4D ();
+// 0x000000FD System.Void Firebase.AppOptionsInternal::Finalize()
+extern void AppOptionsInternal_Finalize_m285D2CDA78DA64654E1E4B612AD7F271D100D3D6 ();
+// 0x000000FE System.Void Firebase.AppOptionsInternal::Dispose()
+extern void AppOptionsInternal_Dispose_m03120579869C6DD7EF1A482582E28D9EDFAFA404 ();
+// 0x000000FF System.Uri Firebase.AppOptionsInternal::get_DatabaseUrl()
+extern void AppOptionsInternal_get_DatabaseUrl_m64D08A736D02EEADF4E70BCCBBA2C30C454A2923 ();
+// 0x00000100 System.String Firebase.AppOptionsInternal::GetDatabaseUrlInternal()
+extern void AppOptionsInternal_GetDatabaseUrlInternal_mCF8AF64B1B1DE481F57652D5FDD5A2604DB9BC6B ();
+// 0x00000101 System.String Firebase.AppOptionsInternal::get_AppId()
+extern void AppOptionsInternal_get_AppId_m48CBD6852621E85DF9F09CF23D700A7977423CC8 ();
+// 0x00000102 System.String Firebase.AppOptionsInternal::get_ApiKey()
+extern void AppOptionsInternal_get_ApiKey_m28D907FCBD5DDF8D69DCF49B239E2625314C0C00 ();
+// 0x00000103 System.String Firebase.AppOptionsInternal::get_MessageSenderId()
+extern void AppOptionsInternal_get_MessageSenderId_mD6223C71D2A6E3EF541C9545E7325BF9DB28CA86 ();
+// 0x00000104 System.String Firebase.AppOptionsInternal::get_StorageBucket()
+extern void AppOptionsInternal_get_StorageBucket_m4F400D5B86B92623BDCFAEB5EA84BA4CAF4FAB06 ();
+// 0x00000105 System.String Firebase.AppOptionsInternal::get_ProjectId()
+extern void AppOptionsInternal_get_ProjectId_m91E98CD596C649395DA5AC4E58A834B0690C2CCA ();
+// 0x00000106 System.String Firebase.AppOptionsInternal::get_PackageName()
+extern void AppOptionsInternal_get_PackageName_m4311E1F6D19C5B937092B41899851411EBD77C92 ();
+// 0x00000107 System.Void Firebase.FutureVoid::.ctor(System.IntPtr,System.Boolean)
+extern void FutureVoid__ctor_mE27D03F52C5F3CE33751637C530DB89045EE97DA ();
+// 0x00000108 System.Void Firebase.FutureVoid::Finalize()
+extern void FutureVoid_Finalize_m4914D5DB9ED222FEEEEA8DEF173412D1C13073F2 ();
+// 0x00000109 System.Void Firebase.FutureVoid::Dispose()
+extern void FutureVoid_Dispose_mA943194D39B041267FD0F98CDCA0408D9CB6E05F ();
+// 0x0000010A System.Threading.Tasks.Task Firebase.FutureVoid::GetTask(Firebase.FutureVoid)
+extern void FutureVoid_GetTask_m81734F11961D1BC3DD5D3E313B006EA275C06B83 ();
+// 0x0000010B System.Void Firebase.FutureVoid::ThrowIfDisposed()
+extern void FutureVoid_ThrowIfDisposed_m1A3D1272E3822D8CD7D884956EAF74D896A2A960 ();
+// 0x0000010C System.Void Firebase.FutureVoid::SetOnCompletionCallback(Firebase.FutureVoid_Action)
+extern void FutureVoid_SetOnCompletionCallback_m086AA60436515B6CF84C1605846C8840F4D2C094 ();
+// 0x0000010D System.Void Firebase.FutureVoid::SetCompletionData(System.IntPtr)
+extern void FutureVoid_SetCompletionData_mF4A5E1F77BAF9B68991A1CB69E770B97E7B15F9E ();
+// 0x0000010E System.Void Firebase.FutureVoid::SWIG_CompletionDispatcher(System.Int32)
+extern void FutureVoid_SWIG_CompletionDispatcher_m8CFA344FBD0E96B3C7896FC501558DA1419AB92A ();
+// 0x0000010F System.IntPtr Firebase.FutureVoid::SWIG_OnCompletion(Firebase.FutureVoid_SWIG_CompletionDelegate,System.Int32)
+extern void FutureVoid_SWIG_OnCompletion_mE8F2BB533194FD8C4C8FE520E219727631002A30 ();
+// 0x00000110 System.Void Firebase.FutureVoid::SWIG_FreeCompletionData(System.IntPtr)
+extern void FutureVoid_SWIG_FreeCompletionData_m3CCB3F04F7A4B2F7C302FB2FA0EE8E290E9A3BAB ();
+// 0x00000111 System.Void Firebase.FutureVoid::.cctor()
+extern void FutureVoid__cctor_m3D527502EA46AD7D051F762E4A562FF82F1E96A2 ();
+// 0x00000112 System.Void Firebase.FutureVoid_Action::.ctor(System.Object,System.IntPtr)
+extern void Action__ctor_m415006B5FB7F067D137625E84373664DC82C72E6 ();
+// 0x00000113 System.Void Firebase.FutureVoid_Action::Invoke()
+extern void Action_Invoke_mEBD747F9A5AF5F8E8105A38F9C922170724B1FB3 ();
+// 0x00000114 System.IAsyncResult Firebase.FutureVoid_Action::BeginInvoke(System.AsyncCallback,System.Object)
+extern void Action_BeginInvoke_m721001119D7AEEEB9D68F6BEDAAD2EB463387021 ();
+// 0x00000115 System.Void Firebase.FutureVoid_Action::EndInvoke(System.IAsyncResult)
+extern void Action_EndInvoke_mAB3870474C83F2A617C049CAAF70528EBD60615C ();
+// 0x00000116 System.Void Firebase.FutureVoid_SWIG_CompletionDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIG_CompletionDelegate__ctor_mCA1C557C03687E76F4BFCAE5CB5E6B8326FE15A5 ();
+// 0x00000117 System.Void Firebase.FutureVoid_SWIG_CompletionDelegate::Invoke(System.Int32)
+extern void SWIG_CompletionDelegate_Invoke_mC15C2DAE74C01E6DE7AFE2119DE6B0DF2F026CBB ();
+// 0x00000118 System.IAsyncResult Firebase.FutureVoid_SWIG_CompletionDelegate::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+extern void SWIG_CompletionDelegate_BeginInvoke_mAD88D391BC21B2464215095F1DBA2FC78CA9067B ();
+// 0x00000119 System.Void Firebase.FutureVoid_SWIG_CompletionDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIG_CompletionDelegate_EndInvoke_m4538BA4453A18C927F99EABDF137E4AED9315A82 ();
+// 0x0000011A System.Void Firebase.FutureVoid_<GetTask>c__AnonStorey0::.ctor()
+extern void U3CGetTaskU3Ec__AnonStorey0__ctor_m6D38E8502001E98A17136217C4B800FAEE0EB670 ();
+// 0x0000011B System.Void Firebase.FutureVoid_<GetTask>c__AnonStorey0::<>m__0()
+extern void U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m49D5BEEABBEB996CB35B33CC6E10657F16D39EEE ();
+// 0x0000011C System.Void Firebase.FutureString::.ctor(System.IntPtr,System.Boolean)
+extern void FutureString__ctor_m061489D0A1588D9DB38616FAB55A0BAD34485991 ();
+// 0x0000011D System.Void Firebase.FutureString::Finalize()
+extern void FutureString_Finalize_m7E05EFF7C0DF5C9B736E0211D3EAF724019558BF ();
+// 0x0000011E System.Void Firebase.FutureString::Dispose()
+extern void FutureString_Dispose_mA5531960B498D68D9A7253FB97ABB654080E782F ();
+// 0x0000011F System.Threading.Tasks.Task`1<System.String> Firebase.FutureString::GetTask(Firebase.FutureString)
+extern void FutureString_GetTask_mE15192AC5EC101E6836F1F806E3CD9B91950B647 ();
+// 0x00000120 System.Void Firebase.FutureString::ThrowIfDisposed()
+extern void FutureString_ThrowIfDisposed_m7418D0866866397DB8B214A7667285ED7A874664 ();
+// 0x00000121 System.Void Firebase.FutureString::SetOnCompletionCallback(Firebase.FutureString_Action)
+extern void FutureString_SetOnCompletionCallback_m7D091BF76B1A886948A923C0DB78F9D7ABF92329 ();
+// 0x00000122 System.Void Firebase.FutureString::SetCompletionData(System.IntPtr)
+extern void FutureString_SetCompletionData_mA6014D9C79E67378D636D7CC8D2360B71CE9317A ();
+// 0x00000123 System.Void Firebase.FutureString::SWIG_CompletionDispatcher(System.Int32)
+extern void FutureString_SWIG_CompletionDispatcher_m86EEC251866153D32AEE9B99F7BD7C6E4CC3CECD ();
+// 0x00000124 System.IntPtr Firebase.FutureString::SWIG_OnCompletion(Firebase.FutureString_SWIG_CompletionDelegate,System.Int32)
+extern void FutureString_SWIG_OnCompletion_m496492F7C240FE1FB23AF0223E100D95981FA0A0 ();
+// 0x00000125 System.Void Firebase.FutureString::SWIG_FreeCompletionData(System.IntPtr)
+extern void FutureString_SWIG_FreeCompletionData_m728EE6C63C44CD43F72D2AC8D1AE44A5F4D9DEBB ();
+// 0x00000126 System.String Firebase.FutureString::GetResult()
+extern void FutureString_GetResult_mA8D502925B06DBE5B32FEFA08C37E1959A9531FB ();
+// 0x00000127 System.Void Firebase.FutureString::.cctor()
+extern void FutureString__cctor_m9FCF43798D7BA44DCB1F0EB1E3AFADF13337ECBD ();
+// 0x00000128 System.Void Firebase.FutureString_Action::.ctor(System.Object,System.IntPtr)
+extern void Action__ctor_mE4D2F42653B22E66EE78EDFA0A6F0FC9DE29F868 ();
+// 0x00000129 System.Void Firebase.FutureString_Action::Invoke()
+extern void Action_Invoke_m38CEF6AC23E334A73051C8A8495BD589F9944C45 ();
+// 0x0000012A System.IAsyncResult Firebase.FutureString_Action::BeginInvoke(System.AsyncCallback,System.Object)
+extern void Action_BeginInvoke_mB8146276DDBC5D032CF36AA4F9AA227FE3433994 ();
+// 0x0000012B System.Void Firebase.FutureString_Action::EndInvoke(System.IAsyncResult)
+extern void Action_EndInvoke_m7EC0DCEE073FFE353FD10E26E8C3C8F6062488C6 ();
+// 0x0000012C System.Void Firebase.FutureString_SWIG_CompletionDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIG_CompletionDelegate__ctor_mC109D1C9CBA64C8F062BAFB3C647075B3445C1C1 ();
+// 0x0000012D System.Void Firebase.FutureString_SWIG_CompletionDelegate::Invoke(System.Int32)
+extern void SWIG_CompletionDelegate_Invoke_mE28C98C62BCF98D2BE91EB1A59DDA0C05B90FBD7 ();
+// 0x0000012E System.IAsyncResult Firebase.FutureString_SWIG_CompletionDelegate::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+extern void SWIG_CompletionDelegate_BeginInvoke_m13C1B5D998ED859B44ABAE56C0F0AC67AC5976AB ();
+// 0x0000012F System.Void Firebase.FutureString_SWIG_CompletionDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIG_CompletionDelegate_EndInvoke_m2ABCCBDDD7805C3EC86A1BBE9F6F6040EBAA926E ();
+// 0x00000130 System.Void Firebase.FutureString_<GetTask>c__AnonStorey0::.ctor()
+extern void U3CGetTaskU3Ec__AnonStorey0__ctor_mBC66A9655B530602D3A35807CFB3C180E613276A ();
+// 0x00000131 System.Void Firebase.FutureString_<GetTask>c__AnonStorey0::<>m__0()
+extern void U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m23AD6C5F8C58F0B1C6C8126A3C744AA076422966 ();
+// 0x00000132 System.Void Firebase.StringStringMap::.ctor(System.IntPtr,System.Boolean)
+extern void StringStringMap__ctor_m8218902F12E5D674D8101ABD2FA4996A557796B4 ();
+// 0x00000133 System.Void Firebase.StringStringMap::Finalize()
+extern void StringStringMap_Finalize_m877BB0DBFF8804C276839D5C035505AFD40DD531 ();
+// 0x00000134 System.Void Firebase.StringStringMap::Dispose()
+extern void StringStringMap_Dispose_m11F4C25BA7DA033E065416255FADF23A568C93C8 ();
+// 0x00000135 System.String Firebase.StringStringMap::get_Item(System.String)
+extern void StringStringMap_get_Item_m5A6B9A74B8614DEDA1AA328E6B0CBCC580DA5FFA ();
+// 0x00000136 System.Void Firebase.StringStringMap::set_Item(System.String,System.String)
+extern void StringStringMap_set_Item_mEB96C48EFE84EFF677C27FD85175AE32D1171E84 ();
+// 0x00000137 System.Boolean Firebase.StringStringMap::TryGetValue(System.String,System.String&)
+extern void StringStringMap_TryGetValue_mA6A1DA610DBB2154213E26D8BD7D4ED5DA91AA79 ();
+// 0x00000138 System.Int32 Firebase.StringStringMap::get_Count()
+extern void StringStringMap_get_Count_m23AA7260732D492449B2A9007D4FEB2E1A9456F3 ();
+// 0x00000139 System.Boolean Firebase.StringStringMap::get_IsReadOnly()
+extern void StringStringMap_get_IsReadOnly_m1EF022858AEC7DC1C7BE3C6956D51DA9AD186FC2 ();
+// 0x0000013A System.Collections.Generic.ICollection`1<System.String> Firebase.StringStringMap::get_Keys()
+extern void StringStringMap_get_Keys_m6E34CF938455D8E556BF830B080DA013A8FEBF54 ();
+// 0x0000013B System.Void Firebase.StringStringMap::Add(System.Collections.Generic.KeyValuePair`2<System.String,System.String>)
+extern void StringStringMap_Add_m5CE13621BCA37764D136828C92275D5FAF8F7F89 ();
+// 0x0000013C System.Boolean Firebase.StringStringMap::Remove(System.Collections.Generic.KeyValuePair`2<System.String,System.String>)
+extern void StringStringMap_Remove_mD57978BCA7D6CE13F47DA42ED71A98D3F42E664D ();
+// 0x0000013D System.Boolean Firebase.StringStringMap::Contains(System.Collections.Generic.KeyValuePair`2<System.String,System.String>)
+extern void StringStringMap_Contains_m7076E15E51464F24A26DD868BFE5920380FEFAC6 ();
+// 0x0000013E System.Void Firebase.StringStringMap::CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,System.String>[],System.Int32)
+extern void StringStringMap_CopyTo_mE002CACF61634918A8A05056B9719EF337B9A5AB ();
+// 0x0000013F System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>> Firebase.StringStringMap::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,string>>.GetEnumerator()
+extern void StringStringMap_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CstringU2CstringU3EU3E_GetEnumerator_m4ABE0EF92D07590D292BE85CDC1A2F2F317BA5B2 ();
+// 0x00000140 System.Collections.IEnumerator Firebase.StringStringMap::System.Collections.IEnumerable.GetEnumerator()
+extern void StringStringMap_System_Collections_IEnumerable_GetEnumerator_m46FA2AF0B323CFD95FC0FC345E88D5DFB1431411 ();
+// 0x00000141 System.UInt32 Firebase.StringStringMap::size()
+extern void StringStringMap_size_m84806AB5310AB1AD079F3DCC1B735215E9D2BEF7 ();
+// 0x00000142 System.Void Firebase.StringStringMap::Clear()
+extern void StringStringMap_Clear_mB5E2ABC508F335258B88373E442190D200F5344E ();
+// 0x00000143 System.String Firebase.StringStringMap::getitem(System.String)
+extern void StringStringMap_getitem_m618353CB4412369AD2B173780CD44193E76D3C02 ();
+// 0x00000144 System.Void Firebase.StringStringMap::setitem(System.String,System.String)
+extern void StringStringMap_setitem_m245F73D23E2F5DF0A2A2337E606ECA52E141F7FF ();
+// 0x00000145 System.Boolean Firebase.StringStringMap::ContainsKey(System.String)
+extern void StringStringMap_ContainsKey_m60796B2C978CC943015AE2861E860039EEB72E4C ();
+// 0x00000146 System.Void Firebase.StringStringMap::Add(System.String,System.String)
+extern void StringStringMap_Add_mD407B524D856858E4497F2EE77F9535B8EDCB957 ();
+// 0x00000147 System.Boolean Firebase.StringStringMap::Remove(System.String)
+extern void StringStringMap_Remove_m22580C6EB48CA56E302A6F5D706514AFF35FAC2F ();
+// 0x00000148 System.IntPtr Firebase.StringStringMap::create_iterator_begin()
+extern void StringStringMap_create_iterator_begin_mE45BE62BBB2B4F05DED011FD7C2894F367DA3146 ();
+// 0x00000149 System.String Firebase.StringStringMap::get_next_key(System.IntPtr)
+extern void StringStringMap_get_next_key_mC6D252BF4375B7BA0658BDFE9ED1D9F40A2D4939 ();
+// 0x0000014A System.Void Firebase.StringStringMap::destroy_iterator(System.IntPtr)
+extern void StringStringMap_destroy_iterator_m1451E6E43ED679FEE21883964BD236722A2C0820 ();
+// 0x0000014B System.Void Firebase.StringStringMap_StringStringMapEnumerator::.ctor(Firebase.StringStringMap)
+extern void StringStringMapEnumerator__ctor_m9CE90E0A9E086934D8A2A72A0B9456F130AC643B ();
+// 0x0000014C System.Collections.Generic.KeyValuePair`2<System.String,System.String> Firebase.StringStringMap_StringStringMapEnumerator::get_Current()
+extern void StringStringMapEnumerator_get_Current_m20C105256F5587929BB3FE78A3C371A0F3F9952A ();
+// 0x0000014D System.Object Firebase.StringStringMap_StringStringMapEnumerator::System.Collections.IEnumerator.get_Current()
+extern void StringStringMapEnumerator_System_Collections_IEnumerator_get_Current_mDFC5044B48229C96D7AE0539287FD7FE88F7225B ();
+// 0x0000014E System.Boolean Firebase.StringStringMap_StringStringMapEnumerator::MoveNext()
+extern void StringStringMapEnumerator_MoveNext_mB82E09F6A36F7D4BA6B6E57312285ACE7601748B ();
+// 0x0000014F System.Void Firebase.StringStringMap_StringStringMapEnumerator::Reset()
+extern void StringStringMapEnumerator_Reset_mE86B5994751D1C247404E0CC45FE0AA97F52F0C5 ();
+// 0x00000150 System.Void Firebase.StringStringMap_StringStringMapEnumerator::Dispose()
+extern void StringStringMapEnumerator_Dispose_mB4E314EF7161EBD7B1DB15A8F85B7D7831C02250 ();
+// 0x00000151 System.Void Firebase.FutureBase::.ctor(System.IntPtr,System.Boolean)
+extern void FutureBase__ctor_mC05DD84980454E9B8210087E01926E5D56FC017F ();
+// 0x00000152 System.Void Firebase.FutureBase::Finalize()
+extern void FutureBase_Finalize_mAB21EE7CEC515CDD99FAB0686D59CB42082B7716 ();
+// 0x00000153 System.Void Firebase.FutureBase::Dispose()
+extern void FutureBase_Dispose_mE480130D78254414AA6A59E2FA63B9AFC4AC01BC ();
+// 0x00000154 Firebase.FutureStatus Firebase.FutureBase::status()
+extern void FutureBase_status_mD675FFD3FAE10D36169C16590EE3C6F1861DD136 ();
+// 0x00000155 System.Int32 Firebase.FutureBase::error()
+extern void FutureBase_error_m70CFE004FF942C34ED11D221D0B6033AD40C1825 ();
+// 0x00000156 System.String Firebase.FutureBase::error_message()
+extern void FutureBase_error_message_m12EFFA84132AB25450D3D3F349A414EF597CCCE3 ();
+// 0x00000157 System.Void Firebase.Platform.FirebaseAppPlatform::.ctor(Firebase.FirebaseApp)
+extern void FirebaseAppPlatform__ctor_m68E35B71AC016430341FC2CB1501DD36DF35F974 ();
+// 0x00000158 System.WeakReference Firebase.Platform.FirebaseAppPlatform::get_app()
+extern void FirebaseAppPlatform_get_app_mF48C33C94B0CC0F998D8DF61979DAB214063E4C7 ();
+// 0x00000159 System.Void Firebase.Platform.FirebaseAppPlatform::set_app(System.WeakReference)
+extern void FirebaseAppPlatform_set_app_m38D382F5AA33F3030A53A5651BBD307500E8DDB5 ();
+// 0x0000015A System.Object Firebase.Platform.FirebaseAppPlatform::get_AppObject()
+extern void FirebaseAppPlatform_get_AppObject_m1CED27077FDEAE27758E07A2EEDE76070E288678 ();
+// 0x0000015B Firebase.FirebaseApp Firebase.Platform.FirebaseAppPlatform::get_App()
+extern void FirebaseAppPlatform_get_App_mF3A2EF3975241569480C2572A46904F0F53783EB ();
+// 0x0000015C System.String Firebase.Platform.FirebaseAppPlatform::get_Name()
+extern void FirebaseAppPlatform_get_Name_mA12B7AD267918DCD32B93CC89C842369CFC000FF ();
+// 0x0000015D System.Uri Firebase.Platform.FirebaseAppPlatform::get_DatabaseUrl()
+extern void FirebaseAppPlatform_get_DatabaseUrl_m69DF1252636587BE3685B7048E2B923EAAECEA27 ();
+// 0x0000015E System.Void Firebase.Platform.FirebaseAppUtils::.ctor()
+extern void FirebaseAppUtils__ctor_m0550C50AC91C0BC87D86B952856A53C97E3A8AC7 ();
+// 0x0000015F Firebase.Platform.FirebaseAppUtils Firebase.Platform.FirebaseAppUtils::get_Instance()
+extern void FirebaseAppUtils_get_Instance_m9960DF708E432F14B1D2F4C78B388E853953B094 ();
+// 0x00000160 System.Void Firebase.Platform.FirebaseAppUtils::TranslateDllNotFoundException(System.Action)
+extern void FirebaseAppUtils_TranslateDllNotFoundException_mD61541C79FB05EDC2630F3C73CE0094C173E0D5A ();
+// 0x00000161 System.Void Firebase.Platform.FirebaseAppUtils::PollCallbacks()
+extern void FirebaseAppUtils_PollCallbacks_m5D20AC67704E5B18BF46A5703AECDEDCE7629986 ();
+// 0x00000162 Firebase.Platform.IFirebaseAppPlatform Firebase.Platform.FirebaseAppUtils::GetDefaultInstance()
+extern void FirebaseAppUtils_GetDefaultInstance_m9DB3696E29A99D7BF4830F57CFAD4A1A8E78A2E9 ();
+// 0x00000163 Firebase.Platform.PlatformLogLevel Firebase.Platform.FirebaseAppUtils::GetLogLevel()
+extern void FirebaseAppUtils_GetLogLevel_m05DD590ACE45E734BDC26078599A47E6730CB2E0 ();
+// 0x00000164 System.Void Firebase.Platform.FirebaseAppUtils::.cctor()
+extern void FirebaseAppUtils__cctor_m4837FB41B2F4A0BE41D86C217177EADFA3C9795F ();
+// 0x00000165 System.String Firebase.VersionInfo::get_SdkVersion()
+extern void VersionInfo_get_SdkVersion_m55C4F788028216AA98C44DE5D9964D7A236D4E93 ();
+// 0x00000166 System.Object Firebase.VariantExtension::ToObject(Firebase.Variant,Firebase.VariantExtension_KeyOptions)
+extern void VariantExtension_ToObject_m775407EA36D03F804BAB675E8AE5CEC507E73958 ();
+// 0x00000167 System.Object Firebase.VariantExtension::ToObjectInternal(Firebase.Variant,Firebase.VariantExtension_KeyOptions)
+extern void VariantExtension_ToObjectInternal_m988B4DCAE1BA5EE432B7DDA3BA22E4356BA67E1F ();
+// 0x00000168 System.Collections.Generic.IDictionary`2<System.String,System.Object> Firebase.VariantExtension::ToStringVariantMap(Firebase.VariantVariantMap,Firebase.VariantExtension_KeyOptions)
+extern void VariantExtension_ToStringVariantMap_mD8EDB66BC11F66B1A3714C6C485205DB2FACDFC2 ();
+// 0x00000169 System.Void Firebase.MonoPInvokeCallbackAttribute::.ctor(System.Type)
+extern void MonoPInvokeCallbackAttribute__ctor_m2E81D5C84000CF30E71622CFD3F1E0BC542D9423 ();
+// 0x0000016A System.Void Firebase.LogUtil::.cctor()
+extern void LogUtil__cctor_m6E595A5CBB8B82B7BD71A4852DF65729B15B21B8 ();
+// 0x0000016B System.Void Firebase.LogUtil::.ctor()
+extern void LogUtil__ctor_mAFE789D82E7A48CFB20437F1C33A2FFAA2A61648 ();
+// 0x0000016C System.Void Firebase.LogUtil::InitializeLogging()
+extern void LogUtil_InitializeLogging_m3DC0D9A5186F8E0E1972761477DB5461FFCEC354 ();
+// 0x0000016D Firebase.Platform.PlatformLogLevel Firebase.LogUtil::ConvertLogLevel(Firebase.LogLevel)
+extern void LogUtil_ConvertLogLevel_mFFA87AF048B8DBB1ECEA04BBD51542A04427C822 ();
+// 0x0000016E System.Void Firebase.LogUtil::LogMessage(Firebase.LogLevel,System.String)
+extern void LogUtil_LogMessage_mE0D4736B7C636462B2AD246F65EFAF5F1785822F ();
+// 0x0000016F System.Void Firebase.LogUtil::LogMessageFromCallback(Firebase.LogLevel,System.String)
+extern void LogUtil_LogMessageFromCallback_m51E15E038FD24735B401F08AE91DA68177B9C1F8 ();
+// 0x00000170 System.Void Firebase.LogUtil::Finalize()
+extern void LogUtil_Finalize_m47FD3A655624527C6FEA216E29C6BDA9306C8D35 ();
+// 0x00000171 System.Void Firebase.LogUtil::Dispose()
+extern void LogUtil_Dispose_m3FEA1C02530EC4E814E7A724D26377919C5BB7D3 ();
+// 0x00000172 System.Void Firebase.LogUtil::Dispose(System.Boolean)
+extern void LogUtil_Dispose_m3309007CAF0503891DA296F1CB22D442BA63ABFF ();
+// 0x00000173 System.Void Firebase.LogUtil_LogMessageDelegate::.ctor(System.Object,System.IntPtr)
+extern void LogMessageDelegate__ctor_m0D3CDB2719AF22A8EF20626B9B82AC1A2F45E05E ();
+// 0x00000174 System.Void Firebase.LogUtil_LogMessageDelegate::Invoke(Firebase.LogLevel,System.String)
+extern void LogMessageDelegate_Invoke_m20BABAAE7867154136330A9AF7BDA743D0A4E0FE ();
+// 0x00000175 System.IAsyncResult Firebase.LogUtil_LogMessageDelegate::BeginInvoke(Firebase.LogLevel,System.String,System.AsyncCallback,System.Object)
+extern void LogMessageDelegate_BeginInvoke_m2046879E66D9C09D9E8CC40403E97DE5D0804B2A ();
+// 0x00000176 System.Void Firebase.LogUtil_LogMessageDelegate::EndInvoke(System.IAsyncResult)
+extern void LogMessageDelegate_EndInvoke_m79E237F82D9C3DA6D5225C1642026BCACFE9DB50 ();
+// 0x00000177 System.Void Firebase.InitializationException::.ctor(Firebase.InitResult,System.String)
+extern void InitializationException__ctor_m6A39CAC13E9D758C410431462099CF1D901B45FF ();
+// 0x00000178 System.Void Firebase.InitializationException::.ctor(Firebase.InitResult,System.String,System.Exception)
+extern void InitializationException__ctor_m6778555FEC2C05FCA0FF20B33431B2C076054FA6 ();
+// 0x00000179 Firebase.InitResult Firebase.InitializationException::get_InitResult()
+extern void InitializationException_get_InitResult_m117BF68EFE3E33ED4FE39746118B8CB3D6ED9B1E ();
+// 0x0000017A System.Void Firebase.InitializationException::set_InitResult(Firebase.InitResult)
+extern void InitializationException_set_InitResult_m26B14A46FFC550963C2A43651DE79C50B86F48E5 ();
+// 0x0000017B System.Void Firebase.FirebaseException::.ctor(System.Int32,System.String)
+extern void FirebaseException__ctor_mB31E783657F428BA72B055DF8A4CE6EA6996996C ();
+// 0x0000017C System.Int32 Firebase.FirebaseException::get_ErrorCode()
+extern void FirebaseException_get_ErrorCode_m35E226BE84B218CC4F6C0B86EEE8770C2404F2A9 ();
+// 0x0000017D System.Void Firebase.FirebaseException::set_ErrorCode(System.Int32)
+extern void FirebaseException_set_ErrorCode_m4E3FC27532C7E7D78183D0393070E1895A54A316 ();
+// 0x0000017E System.String Firebase.ErrorMessages::get_DependencyNotFoundErrorMessage()
+extern void ErrorMessages_get_DependencyNotFoundErrorMessage_m6457663EBE0DBF1CFF53BD25AD45A51A8619CE66 ();
+// 0x0000017F System.String Firebase.ErrorMessages::get_DllNotFoundExceptionErrorMessage()
+extern void ErrorMessages_get_DllNotFoundExceptionErrorMessage_m5238B46BE37EB715B9E70E09BB06784D46F63D01 ();
+// 0x00000180 System.Void Firebase.ErrorMessages::.cctor()
+extern void ErrorMessages__cctor_m73B330060F5C8675C915DE990225D000F7626A1C ();
+// 0x00000181 System.Void Firebase.AppOptions::.ctor(Firebase.AppOptionsInternal)
+extern void AppOptions__ctor_m0E8C28A5A2726E3D9154CE0EC0F104C2906F05E4 ();
+// 0x00000182 System.Void Firebase.AppOptions::Dispose()
+extern void AppOptions_Dispose_m17BA5011BBEE56F0DA0DCD24D40B4F3053A59B04 ();
+// 0x00000183 System.Uri Firebase.AppOptions::get_DatabaseUrl()
+extern void AppOptions_get_DatabaseUrl_mAFA5B851D8F01720825A4BC02E583AF8A72D399F ();
+// 0x00000184 System.Void Firebase.AppOptions::set_DatabaseUrl(System.Uri)
+extern void AppOptions_set_DatabaseUrl_m366936ECD0092B0115C71E8D5FBCB1C424DC1295 ();
+// 0x00000185 System.Void Firebase.AppOptions::set_AppId(System.String)
+extern void AppOptions_set_AppId_mCCA503158696E5130B84AA621D19DB71659A11E4 ();
+// 0x00000186 System.Void Firebase.AppOptions::set_ApiKey(System.String)
+extern void AppOptions_set_ApiKey_m740BF1DE16FD84D12C136647E49B08B5D3656375 ();
+// 0x00000187 System.Void Firebase.AppOptions::set_MessageSenderId(System.String)
+extern void AppOptions_set_MessageSenderId_m068B2732D0F3031D9EE9E115B1CC0E915D611E15 ();
+// 0x00000188 System.String Firebase.AppOptions::get_StorageBucket()
+extern void AppOptions_get_StorageBucket_mAB8AC18DB43252A87255F7B469F71D34611ECC4B ();
+// 0x00000189 System.Void Firebase.AppOptions::set_StorageBucket(System.String)
+extern void AppOptions_set_StorageBucket_m6B82FA59AB41A66ADAAFB936C25B6C14E9A9D6A0 ();
+// 0x0000018A System.Void Firebase.AppOptions::set_ProjectId(System.String)
+extern void AppOptions_set_ProjectId_mD20A2123AD3700C29BF4DBE2FC07F170D624559F ();
+// 0x0000018B System.Void Firebase.AppOptions::set_PackageName(System.String)
+extern void AppOptions_set_PackageName_m15D939044210630597188B47808BD3CCB19A2DA1 ();
+static Il2CppMethodPointer s_methodPointers[395] = 
+{
+	AppUtilPINVOKE__cctor_m323C5F5D15D57DD7481971BF43495E4BB0E232AD,
+	AppUtilPINVOKE_Firebase_App_delete_FutureBase_mAD9EF7C7D0084FCBA7E08DDEA165A99B5AD1AB34,
+	AppUtilPINVOKE_Firebase_App_FutureBase_status_m8432BB5A381610C55302344E2038AE51BAF4D4AF,
+	AppUtilPINVOKE_Firebase_App_FutureBase_error_mD4C52D4D784968CE0D60A37DE882431CF3514C93,
+	AppUtilPINVOKE_Firebase_App_FutureBase_error_message_m1435CB8D1CE57C58E5175D0517F5D600189C2746,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_size_m413083CB1755EC2DB8D64E1B047AB760A140D377,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_Clear_mB1C78893EBE043F01267ACF49F011669046A8CDE,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_getitem_m6E2371BA1C81F3F8C24A17467BE191B8CAA2163D,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_setitem_m244403B6143A02341F4BD0A3484381D4FB0217DC,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_ContainsKey_m5D1CE45F71E7307735365E550F518D69F073A822,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_Add_m681C3985D8FFFD4081512E8D32D63C0E75E8EF89,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_Remove_m6E31D85226BE3F2E9B17744AF7A76908873F6606,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_create_iterator_begin_mCFE935494171274EB38EFB8AC23775DADD2A3DCA,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_get_next_key_m427BE9BC5E9B37F281342A843ACB9A44CD3475C9,
+	AppUtilPINVOKE_Firebase_App_StringStringMap_destroy_iterator_mB4F4514CB59CD2F3A83D88375EB8405AD0BA95FE,
+	AppUtilPINVOKE_Firebase_App_delete_StringStringMap_m690977A630E9B0727BF16B5989B363AF7B8F5388,
+	AppUtilPINVOKE_Firebase_App_FutureString_SWIG_OnCompletion_m20A7771AEEF1D03B0DE3047D36FC8BEE0D247C26,
+	AppUtilPINVOKE_Firebase_App_FutureString_SWIG_FreeCompletionData_m606A677773D5976BC37FDDFE13238114E93DA466,
+	AppUtilPINVOKE_Firebase_App_FutureString_GetResult_m86378A84E903FB2AB1BE9B5B285EDE23F3EC305D,
+	AppUtilPINVOKE_Firebase_App_delete_FutureString_m8B3FAF01839DB496EEAEEFB13E527CB185BCB6B5,
+	AppUtilPINVOKE_Firebase_App_FutureVoid_SWIG_OnCompletion_mD5BBFD3BCD760120C652F2A6A41D2AF862AD3C2A,
+	AppUtilPINVOKE_Firebase_App_FutureVoid_SWIG_FreeCompletionData_mE6CFA37BE33C4068A3F6F7BD0E6268752729C3BB,
+	AppUtilPINVOKE_Firebase_App_delete_FutureVoid_m9A8B5FC2D7B9B34F4CFE65D3A268ED3D9611A93B,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_GetDatabaseUrlInternal_m5342C566D1300649EF9F4C0A784C3FC29C8C05F4,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_AppId_get_m1D0BA312B4EB816F5067D022E3EFC2E83E8D24EA,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_ApiKey_get_mF11F5251E8C047F2D0AB07EEA7479E2787B41372,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_MessageSenderId_get_mA47CC56FF7441780BB5BDDE45BF849E7C6B706FD,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_StorageBucket_get_mD18AD7E8E2A569028E6399386AE665CD6728EADE,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_ProjectId_get_m9B8A4E351FFE25FFE1281459CEDB9A7401F65B7F,
+	AppUtilPINVOKE_Firebase_App_AppOptionsInternal_PackageName_get_m59E499377BA5E7A12779FABA272A4E2D89ECB07E,
+	AppUtilPINVOKE_Firebase_App_delete_AppOptionsInternal_mA2059BE5C6D6BC252B1ADF62336E68520262AA07,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_options_m558AEE708E1E3F1276946DF778B96EAF964C165E,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_NameInternal_get_m1031D382B1EFF31DB99F4DDE7F85353146871CF7,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_CreateInternal__SWIG_0_m7C57AF8D589A0FAB3769762B145C7C822C8B060D,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_ReleaseReferenceInternal_m8E2DF47124BF1A67C6BB04E57D422AE78BABE3F2,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_GetLogLevelInternal_m124AF04EF8A5F883FB0DFED5ABCB978565FE2201,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_RegisterLibraryInternal_mC0827EF9ADAE73F66B0FD3481A52BF0CA2B01BD7,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_AppSetDefaultConfigPath_m988AC83C2A57803F630DCFD784AC3504636AD8CD,
+	AppUtilPINVOKE_Firebase_App_FirebaseApp_DefaultName_get_m4A778152B530BD60EA311A032035B8EE0B88F693,
+	AppUtilPINVOKE_Firebase_App_PollCallbacks_m4E579A12C727C9635562303C2F4B253EF091AFA4,
+	AppUtilPINVOKE_Firebase_App_AppEnableLogCallback_m33F371C4266DD2E0F5F6D6D72400234C9892DE3C,
+	AppUtilPINVOKE_Firebase_App_SetEnabledAllAppCallbacks_mEC3417E8E968F64991558FE9762572962D862FD2,
+	AppUtilPINVOKE_Firebase_App_SetEnabledAppCallbackByName_m034823F3747EB6054A3195157A31DE4DA5C21C81,
+	AppUtilPINVOKE_Firebase_App_GetEnabledAppCallbackByName_m9877D632F57AAFEFB397C33A537CDB03797DB7AE,
+	AppUtilPINVOKE_Firebase_App_SetLogFunction_m22F7150D9129EB4F2FCE20986B379ADBB9C7C3D5,
+	AppUtilPINVOKE_Firebase_App_CheckAndroidDependencies_m11DEEEBD38EA2488BBE9B0648DE7990E654D8832,
+	AppUtilPINVOKE_Firebase_App_FixAndroidDependencies_m593B9AC9FA5059F4AA04E8B05F47C4CA923803AB,
+	AppUtilPINVOKE_Firebase_App_InitializePlayServicesInternal_mF0FA115B9481D6612928C24B1D1F763E65B9DF3A,
+	AppUtilPINVOKE_Firebase_App_TerminatePlayServicesInternal_mF9A244687190CE27599B0617EC881993124A5387,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_size_m2D0765A664247BB989DEAA63C3BFA08FAAB3811A,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_Clear_mA399FAB5C839C8F73ED73F5E2D49635870B15886,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_getitem_m732356CBB947FA8FA06C510902329CB48C156F95,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_setitem_m5BD8C9A75E236C744D00D9BEC28A8E920C613E4F,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_ContainsKey_m111A29439C2C425CECC61A0F2483A60230FDA7BE,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_Add_m429025EB30AF45A3526665E5C038C9AE8D07ED1C,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_Remove_mC09567779DB249BC6BC3743B63A698CC53FCA72C,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_create_iterator_begin_mF231294A09428ADC5002FB4583CE30B864104C61,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_get_next_key_m2F4A64CB27EE44887A95ACF7395A593D12097F79,
+	AppUtilPINVOKE_Firebase_App_VariantVariantMap_destroy_iterator_mE4F7CF316BCFDD567E16D111F22F608FA304F700,
+	AppUtilPINVOKE_Firebase_App_delete_VariantVariantMap_mA2262965855AB5CAD31B1348B7E3A5536E2DD97B,
+	AppUtilPINVOKE_Firebase_App_VariantList_size_mF54399753B25058C7E9518558F0EF0450A90CF75,
+	AppUtilPINVOKE_Firebase_App_VariantList_getitem_m898FEFBE4E6677CDB36A940B024FAB848A9A184F,
+	AppUtilPINVOKE_Firebase_App_delete_VariantList_mBF1CA5064FB726F1B8288FB99FE056C9BF235D6C,
+	AppUtilPINVOKE_Firebase_App_delete_Variant_m321122FF3FBC4FC53E1A99E0FE50F5F52DA03589,
+	AppUtilPINVOKE_Firebase_App_Variant_type_m025204648C4FFE9BED040BCBC8AD21CE9F989261,
+	AppUtilPINVOKE_Firebase_App_Variant_is_string_m47C95DDBE15FE6DFE4A593D0F904F058967425EF,
+	AppUtilPINVOKE_Firebase_App_Variant_is_fundamental_type_m46493E8909038197C7A2504671AD4AE0E547C94C,
+	AppUtilPINVOKE_Firebase_App_Variant_AsString_m984F9D28B521D2AEAFADEB3B7BE7DC294C8E5E39,
+	AppUtilPINVOKE_Firebase_App_Variant_blob_size_m58FC0E9EAF8507EA29C9F63F0A9FD953FE2E6423,
+	AppUtilPINVOKE_Firebase_App_Variant_vector__SWIG_0_m32CAD5A409097E31BF716049D785E99994A3C9C3,
+	AppUtilPINVOKE_Firebase_App_Variant_map__SWIG_0_m10DA886D0A8B28D3B7DC74B2137282CDA9C603A9,
+	AppUtilPINVOKE_Firebase_App_Variant_int64_value_m11B23C720F7C7D79468D1FC9ACF9AFD1E7D598BA,
+	AppUtilPINVOKE_Firebase_App_Variant_double_value_m07D6F8F1E9789BA286135E17127BA591F4FC1A4A,
+	AppUtilPINVOKE_Firebase_App_Variant_bool_value_m1B255D160EFFD5EC9D9F73371EED6991A69A888D,
+	AppUtilPINVOKE_Firebase_App_Variant_string_value_m598202E49E3058ABF9C38B22216403283FEF3AD4,
+	AppUtilPINVOKE_Firebase_App_Variant_untyped_mutable_blob_data_m8C33B9C032C187955F3E1A782CA6CB58977F16F9,
+	AppUtilPINVOKE_Firebase_App_FutureString_SWIGUpcast_m655F974F7F1851714F64ACBF724B3F31D8D64837,
+	AppUtilPINVOKE_Firebase_App_FutureVoid_SWIGUpcast_m8188B9838C9040E39A14508C937F300D0938E137,
+	SWIGExceptionHelper__cctor_m0CCC85BDED6DE2F7F696C32F04FBFD3AAE6DCABF,
+	SWIGExceptionHelper__ctor_m9C08890DD2A3008937470A37320C49FFF3DAED5D,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_AppUtil_mE2D33D9FA7B93BB5030DCA905D343EA6450F5BAE,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_AppUtil_mAD2F9A77CA68FFB83FABFC579B2D13DE235E02E3,
+	SWIGExceptionHelper_SetPendingApplicationException_mFE7727F29EF454DC82F7773C7DCA7DC4B9DCE688,
+	SWIGExceptionHelper_SetPendingArithmeticException_m66D325C658E4D4A6F84E8BFF2A532FAAE96D5B5C,
+	SWIGExceptionHelper_SetPendingDivideByZeroException_mEBC984AA86593D05467BC12012A3E1E33953ADED,
+	SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mD9473B8DC134A0E6BCE15305DC2E12E53AF6236E,
+	SWIGExceptionHelper_SetPendingInvalidCastException_mB08BAC65C0DB20E0361AD747E5009B62EAACC5F8,
+	SWIGExceptionHelper_SetPendingInvalidOperationException_mF62073712A93DD7570BEC306E4E2DF6049F31EA9,
+	SWIGExceptionHelper_SetPendingIOException_m59B1FD0225B32443CC0685A249F0A301693C2744,
+	SWIGExceptionHelper_SetPendingNullReferenceException_m5F381925BBBE581ADE8384B76FEA7D208B69ED4D,
+	SWIGExceptionHelper_SetPendingOutOfMemoryException_m71E895F1202CBDC1909619B221AC6AB3276D7AF7,
+	SWIGExceptionHelper_SetPendingOverflowException_m8FDE1CE2A3D3EB2DA8C7C12E28DD90C15E84D946,
+	SWIGExceptionHelper_SetPendingSystemException_m8EC608208492B67293B9C2AC06D7B85B5B1B26E4,
+	SWIGExceptionHelper_SetPendingArgumentException_mA47B953C5D09FDB764911484316FFDAAB4B0BE4A,
+	SWIGExceptionHelper_SetPendingArgumentNullException_m1DAEF08C4FAD2181E64B920B843C903538D09327,
+	SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m2DDA9CC01A5B010A4D682F0615F89EFEA2D3A385,
+	ExceptionDelegate__ctor_mFA7CF73187B3CCF3692F0FAEB489B4C033D031C4,
+	ExceptionDelegate_Invoke_m7736AAF7D7D6C5399A9681591A6CA552951B15E5,
+	ExceptionDelegate_BeginInvoke_m3B6B207EBEB006B8DE9F69A45479252765D12C61,
+	ExceptionDelegate_EndInvoke_m1FD77871632D606344B416763FAC1913243AEFB8,
+	ExceptionArgumentDelegate__ctor_m91C0CA33EFF5FCC3CE1D6355C042911404158888,
+	ExceptionArgumentDelegate_Invoke_m1C77849554DD44FAE777ED68077C13ABF59ADE43,
+	ExceptionArgumentDelegate_BeginInvoke_mEB25DD9E17F86D1A233BA5EF1E395FD625312881,
+	ExceptionArgumentDelegate_EndInvoke_m77D70EC503C4674AF2D8B2EB7558954A80B31369,
+	SWIGPendingException_get_Pending_m368C58F7DD3C0618543462CD68806FE1EF98FCDC,
+	SWIGPendingException_Set_m86001767F702444249A31BCD88319B9B3F6F9393,
+	SWIGPendingException_Retrieve_m56CE138BBD1EB5BCCF31BD13DFB22AB78FBA8DB1,
+	SWIGStringHelper__cctor_mB179B7CB11DDEA60FCC60E324B32E47BDBA6E4B9,
+	SWIGStringHelper__ctor_m9853D7D1C99D3DCD1F6F2506963B5717C6BC7B8C,
+	SWIGStringHelper_SWIGRegisterStringCallback_AppUtil_mF30163D65D26AD200AEA5C9047A2EBFE1835E836,
+	SWIGStringHelper_CreateString_mF4B58DD5B3526C5E91D71786D528CC4ADADCF243,
+	SWIGStringDelegate__ctor_mFF996766F91D11AC79C2D81A824FDA4E6196E156,
+	SWIGStringDelegate_Invoke_m1A7283ABE06BABDF3A6B0EE1F52D6D32EA7F042C,
+	SWIGStringDelegate_BeginInvoke_m9EFB7B39A0A45119085366E165D79F0E6429A2F5,
+	SWIGStringDelegate_EndInvoke_m5433E9F970EFADE7E402CA0693BB4019B31FC721,
+	AppUtil_PollCallbacks_mADFB4BC7209554590C31E37F8C08562E463F9D59,
+	AppUtil_AppEnableLogCallback_m9FA92B86E6A3653121CBD5C2CA2DDD2C31B2BF04,
+	AppUtil_SetEnabledAllAppCallbacks_mC850A20177310AC3A44E421CB2F3C0ECE1CC9574,
+	AppUtil_SetEnabledAppCallbackByName_m98EF16C68B04D64D2CBB59FE074711D5A06B3BD7,
+	AppUtil_GetEnabledAppCallbackByName_m2C063D950392679E20AD11BD5169956A02E78FF1,
+	AppUtil_SetLogFunction_m2FD7E09A6AED976A0754E2E993786AAA5834B084,
+	AppUtil_CheckAndroidDependencies_m7B59594562BE9CD80D3DF9453902AB517957E709,
+	AppUtil_FixAndroidDependenciesAsync_m484806C832588B0F28C396AF58C0223B2FE9789E,
+	AppUtil_InitializePlayServicesInternal_m9A6D4067BB6C29F8CC939A78E56432CF5ECFD930,
+	AppUtil_TerminatePlayServicesInternal_mBE1327FFCC0B92A4C4534DBABF0E862E9C452434,
+	Variant__ctor_m8DA03321AF412FB90368F016FC27122354ED1661,
+	Variant_getCPtr_m9C98A58CB0FA198CFD1630941A2C877A53F1903A,
+	Variant_Finalize_mEF9CD860CA2A1B572A54662A35529888EE8D4E77,
+	Variant_Dispose_mF8CD2B2067D95E294E5AB1E354D3DA66A9BF28F3,
+	Variant_blob_as_bytes_m3A07C9021F60A5DFBBDD524FA6E526E3737B041D,
+	Variant_type_m237110F063090CCDCF499E8B91AB4AC52E29225E,
+	Variant_is_string_m04FAAA80BD710A30454AD8E18909F71C12271DE5,
+	Variant_is_fundamental_type_mCE75EB5B40B5E642B22F362D436A6F2F4B1BCD9D,
+	Variant_AsString_m354B25D084CFE83259CC9C6695E15E6ADA295C6A,
+	Variant_blob_size_m7964088C6CAFD1154D158553A55B3198AF11447B,
+	Variant_vector_mA17CC5559B0A3CB065FEDA0ACA5B58341419541D,
+	Variant_map_mA71EB992CEB4425C757447916849C1316845D347,
+	Variant_int64_value_mBDF2EF7DE50D4D828732032C827D6194AA61DBDD,
+	Variant_double_value_mCEBE4AE0B3ECEA48A8B76B18B6C9D4B3FBA0B46F,
+	Variant_bool_value_m2CE9E542E99D99D1B52A227400BDBA838E5FA8FA,
+	Variant_string_value_mDF4E85BE3F3FD113F983FD9FD3BCF4482BE33BEA,
+	Variant_untyped_mutable_blob_data_m1983141EC0719A782B7BAAABDAA6DB011C80360E,
+	VariantList__ctor_mAC9841D5BB44580BB99A3EFC7BD88501FFB23911,
+	VariantList_Finalize_mCF53DB8C4E76CC13D67A4F99740625AE68EB4E48,
+	VariantList_Dispose_m220A30BB4B6BD4EAB5F81E99568473AD1F7630A4,
+	VariantList_get_Item_m5462DFF366ED9E22B02C4B7A9E7B9C7BA7036559,
+	VariantList_get_Count_m1386B2F13D323433E7564F0477ECAFF1253F6D3E,
+	VariantList_System_Collections_Generic_IEnumerableU3CFirebase_VariantU3E_GetEnumerator_m1087E204688F74C2F7170B3996AEA75625DE57D6,
+	VariantList_System_Collections_IEnumerable_GetEnumerator_mF266EA03B5B64DC230AC6235B8A23268723C34D9,
+	VariantList_GetEnumerator_m5247A211DC8BF73B15D2AC923DA46F90820A0C94,
+	VariantList_size_mD8FCB1537686E311DCF2C8B1378F531EC7DA8198,
+	VariantList_getitem_m5B1FF1C74166E99CB95CBB13B962361BB74124D7,
+	VariantListEnumerator__ctor_m4379DDC00D5738988103662A6D3BBAF4D5B79B68,
+	VariantListEnumerator_get_Current_m00C53C292932E239C3F7C571A7F6AE6F1ADE6188,
+	VariantListEnumerator_System_Collections_IEnumerator_get_Current_m0A6A6F45567FA1B3278DB23BC2FD28952FF46E3A,
+	VariantListEnumerator_MoveNext_m26AC810FCEE6B8470E0DC2B32F75FEBDC5E1B9B4,
+	VariantListEnumerator_Reset_m1B07934D78A77A9B5946D22B1A05BAF189C0D448,
+	VariantListEnumerator_Dispose_mB055615C811E570E2CF094C979A80B797C4CAF2C,
+	VariantVariantMap__ctor_mCE9365D5D77B777730E02118231C4B1F1F7915FD,
+	VariantVariantMap_Finalize_mD624A2B846A4641AC6C2EA58287B8027B88E5C88,
+	VariantVariantMap_Dispose_m072B15476C4521D5FD75316AE03C5B7F20EC0FD5,
+	VariantVariantMap_get_Item_mC1321899366F0A680F9271BB53186A5DF3F4C9C7,
+	VariantVariantMap_set_Item_m38747790B2666BEF75382FF031306C36E5F328A3,
+	VariantVariantMap_TryGetValue_m7E1A3D6319DBDC6556BC644C22871F740F846F4D,
+	VariantVariantMap_get_Count_mA9C8A8C93EAE3637E11BEB0C79A6C3885DBA988B,
+	VariantVariantMap_get_IsReadOnly_mD30B2D61F2D97AF495F0201F07B742F1386D5123,
+	VariantVariantMap_get_Keys_mC81E77F1763B8626747F459FD0D264C3E84D5739,
+	VariantVariantMap_Add_mFFEFE4E07324213241785224FB2572BAB3DC9EEE,
+	VariantVariantMap_Remove_m49D9A68F5E176EBB96820A31457791A004BC94BF,
+	VariantVariantMap_Contains_m8E0BA83A8C1847FA10EEDDEF619BD96A10E04762,
+	VariantVariantMap_CopyTo_mA602E5A6DF89DA0E007B1880C7CA0FC5CEA8656E,
+	VariantVariantMap_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CFirebase_VariantU2CFirebase_VariantU3EU3E_GetEnumerator_mFDADE9E70F426F9D211AD5A1D92902CDCC1FFBCB,
+	VariantVariantMap_System_Collections_IEnumerable_GetEnumerator_m08A558DC6F11A5D8C49FF09F29CF9997990D0403,
+	VariantVariantMap_GetEnumerator_mA0C75AD922D449AE1B854CB824CC2275DCC7BB5B,
+	VariantVariantMap_size_mC2A6221965BB05BCE8CD3B24444AE535B06A64DE,
+	VariantVariantMap_Clear_mF8797D1D980E7D9937D44B3F67E5E33C5F8E86BB,
+	VariantVariantMap_getitem_m639D4FFAEEB727EEB183DCDED03DD2C6DE8BBB20,
+	VariantVariantMap_setitem_mD891C188FE648C86511F98E19169108E1916AFD7,
+	VariantVariantMap_ContainsKey_mA8AD74127002F185C4935A72E135D650EAD65A6E,
+	VariantVariantMap_Add_mA70F93622505D9AC5282EE765FEF64D837B95892,
+	VariantVariantMap_Remove_mB3FF3CA249B298CA2666922F89B6A3497F195E44,
+	VariantVariantMap_create_iterator_begin_mDAF2D41D46CB21CCC12CD71EDC4352EAD946C72C,
+	VariantVariantMap_get_next_key_m3B699C7F2EEC4CE894B30D4C61BD558E2C076CEF,
+	VariantVariantMap_destroy_iterator_m9A619B3361762E2B2C21013F13A76C4E8BB6CCB1,
+	VariantVariantMapEnumerator__ctor_m68187770F5208062635A5A7034E94B037F89F511,
+	VariantVariantMapEnumerator_get_Current_mAEBF3664E06D2F486CE9BB3FA991F0F5BFA17847,
+	VariantVariantMapEnumerator_System_Collections_IEnumerator_get_Current_mCF3072D42E15A6D444DC157307DBFD25F97FD9B3,
+	VariantVariantMapEnumerator_MoveNext_mCA89357B393AF1641608253325B6E8FC540C333D,
+	VariantVariantMapEnumerator_Reset_m6FB58016E9B991FBA36DC4CB91F100A6BD9014F1,
+	VariantVariantMapEnumerator_Dispose_m630105782EE0AE0E7094582CBA9A8EA6FE56009E,
+	FirebaseApp__ctor_mECDB71535A9846F085CD59C6EA9261E640FE127A,
+	FirebaseApp__cctor_m977F4273E73E9960D8B02660FAB2D1B457AD8F35,
+	FirebaseApp_getCPtr_mF922A07C69469D0EB5A268A9278C495805BDCA4F,
+	FirebaseApp_Finalize_m3CA0CC2B785DE13BAEB66246FEC4A3022A0DD98C,
+	FirebaseApp_Dispose_m633E7DCA88EC8FEDEB70D80B5A60CA4CF2AD6460,
+	FirebaseApp_TranslateDllNotFoundException_mC6F04F02034B21A8A258012156CA7F263FB594F6,
+	FirebaseApp_get_DefaultInstance_m46ACEAEC916D0AC3014302498F51607462EE5C63,
+	FirebaseApp_GetInstance_m0C93898925E16C167E18D8F8351ECC375A46C75C,
+	FirebaseApp_Create_m3ED22D074FC30B7DF31369F927C221AA9B6B1500,
+	FirebaseApp_get_Name_mB5E945165A8F7DFAA21F0AD3A9E99CC3438943C5,
+	FirebaseApp_get_LogLevel_mA1462E02A6B78D0F598CF9D3F22CAF13D9E29E8D,
+	FirebaseApp_add_AppDisposed_m1CA5C0D303E4A5536DFDBE3356A900B3B966D4B6,
+	FirebaseApp_remove_AppDisposed_mE9EBC4903F93C997C038F8B12940A3D658624EA9,
+	FirebaseApp_AddReference_m4E500E124497E17C5C4964F2CAEBDEB2ED3E8680,
+	FirebaseApp_RemoveReference_m82863E170CCFE42B64CE8B39E639570B549CC4AD,
+	FirebaseApp_ThrowIfNull_m3502997B4E18EB792AD9ACE01EC5137CD9639E37,
+	FirebaseApp_InitializeAppUtilCallbacks_mB1F7BFC4360EAFCA4E1726B81452753734568FE8,
+	FirebaseApp_OnAllAppsDestroyed_m7C30233D9A14F2C241F723C40A62E739D6A9453B,
+	FirebaseApp_UrlStringToUri_m09F6D262D86EE9898214D35510E1E8CEBF53D0DA,
+	FirebaseApp_WeakReferenceGetTarget_mC676B673AB674077A1A40272E96E51C5A25DC30A,
+	FirebaseApp_InitializeCrashlyticsIfPresent_mEC7562503FC321F112B1B90E0C7709175C1BA786,
+	FirebaseApp_CreateAndTrack_m9432CF67F169FAFC2D57F7C8E2460CBE174CB6F7,
+	FirebaseApp_SetCheckDependenciesThread_m23DF7E2FA98074CB3D3E6E4D153E043DB926F121,
+	FirebaseApp_ThrowIfCheckDependenciesRunning_m146122F83C37BC92E9D26A680740ACE69176D3F3,
+	FirebaseApp_IsCheckDependenciesRunning_mE1A442A699DB9BEDC328975FC56B51C3769A6B8D,
+	FirebaseApp_CheckDependenciesAsync_m99845C6FA3EFE0EA049E677F9A09165879189079,
+	FirebaseApp_CheckAndFixDependenciesAsync_mC7E05ACB10DB290C103182B2EE15BAC65DA8D56B,
+	FirebaseApp_CheckDependencies_m963CF77BD932E865F23A265CC7C5480869DC688D,
+	FirebaseApp_CheckDependenciesInternal_m1AFAB4F2D0ACCFA130138225DE02A685FC223706,
+	FirebaseApp_FixDependenciesAsync_mB10B77A9EE97F9C62541139B302DD3C747CBCE4B,
+	FirebaseApp_ResetDefaultAppCPtr_m30908CCAB44988219373DA88535C77157C25215A,
+	FirebaseApp_get_Options_mDD4642CC794D4339D5AF6CC2A3607A9FE52F81E6,
+	FirebaseApp_get_AppPlatform_m6F308A08C9294CB4D8191CAA2A0410E22A039934,
+	FirebaseApp_options_m72A1560C41F3822AC08EC57C8B2D6FBB4248EE1B,
+	FirebaseApp_get_NameInternal_m2752D24CD4D632B51C27AA926E3527828A19B6A2,
+	FirebaseApp_CreateInternal_m039014CF3B7DB1B092068767F49B9E0C9D9C11D6,
+	FirebaseApp_ReleaseReferenceInternal_mDDCBE7D04450E4A53C0708998720842CC840EF07,
+	FirebaseApp_RegisterLibraryInternal_m33F0D35CAD2A634673F6A9D1610E0122FFB88637,
+	FirebaseApp_AppSetDefaultConfigPath_m53566882606C7038E0C2E2AD4182628B50D96F80,
+	FirebaseApp_get_DefaultName_mBA7DA11C2791078BAA59206A945890E958546168,
+	FirebaseApp_U3CCreateU3Em__0_mD5F1CE4EE3725E0E57705E4941C5E38BCBB0C518,
+	FirebaseApp_U3CCreateAndTrackU3Em__1_mF4B85EE912269BF441F99AF1E4E7881443CD7C75,
+	FirebaseApp_U3CCheckDependenciesAsyncU3Em__2_m3A94D60BB5ADB50A8E5F3E2E198BB488EF6D3749,
+	FirebaseApp_U3CCheckAndFixDependenciesAsyncU3Em__3_m3A74A441315B16BF407F63DF51E6FD3C10C3AEEB,
+	FirebaseApp_U3CCheckAndFixDependenciesAsyncU3Em__4_m8F137EC21BF1DA9B84A2E133F4CE0E4F5ACAF1C6,
+	EnableModuleParams__ctor_mC0CF508919EF04A896578538EAF80B4A6E58E750,
+	EnableModuleParams_get_CppModuleName_m53DB9B2D254E157BB2311782D33920853A6BF042,
+	EnableModuleParams_set_CppModuleName_mA30925B48F2CE52E2E237F262F82FF7830CCE0A5,
+	EnableModuleParams_get_CSharpClassName_m652F90B63BD3DAA082A938D4CB58AD2BC6759F44,
+	EnableModuleParams_set_CSharpClassName_m85BFA74C1608D81B49D7D5C45B297B76CCEE20F3,
+	EnableModuleParams_get_AlwaysEnable_m19451C262F0380C6DB2D8AAE316830AD8E7B1870,
+	EnableModuleParams_set_AlwaysEnable_m7636D0CA28BE95D6F25261C8CEA5651AC5A47F84,
+	CreateDelegate__ctor_mA279FA3C2C3D5F9376130804EE01BB8DEDF9584D,
+	CreateDelegate_Invoke_mFDC361DD320C47E8E5BB468EFAB257D7C23C3EE3,
+	CreateDelegate_BeginInvoke_m832557D650F491C3E737680DD6D983BBF49F1FCB,
+	CreateDelegate_EndInvoke_mE0EC3F88C1250F6364F70AAC536380B1EE29E4AB,
+	U3CCheckDependenciesU3Ec__AnonStorey2__ctor_mFA98DB6CB10D1D4F895A9CE8E37244984CEAAA9A,
+	U3CCheckDependenciesU3Ec__AnonStorey2_U3CU3Em__0_m30BCA55FB6D54EFA865A3C53D3653016E930C51D,
+	U3CFixDependenciesAsyncU3Ec__AnonStorey3__ctor_mB8F3AC8FC03726C395087E62AD9A8A43D754E7E9,
+	U3CFixDependenciesAsyncU3Ec__AnonStorey3_U3CU3Em__0_m674CDFEC2C442870C4205CC1977D9C9011DAE156,
+	U3CFixDependenciesAsyncU3Ec__AnonStorey3_U3CU3Em__1_m794722423FE1272C4D03C4F958CCB0519411AE93,
+	AppOptionsInternal__ctor_m0B3AED5F7890CC165932B67931DC3B625F018F4D,
+	AppOptionsInternal_Finalize_m285D2CDA78DA64654E1E4B612AD7F271D100D3D6,
+	AppOptionsInternal_Dispose_m03120579869C6DD7EF1A482582E28D9EDFAFA404,
+	AppOptionsInternal_get_DatabaseUrl_m64D08A736D02EEADF4E70BCCBBA2C30C454A2923,
+	AppOptionsInternal_GetDatabaseUrlInternal_mCF8AF64B1B1DE481F57652D5FDD5A2604DB9BC6B,
+	AppOptionsInternal_get_AppId_m48CBD6852621E85DF9F09CF23D700A7977423CC8,
+	AppOptionsInternal_get_ApiKey_m28D907FCBD5DDF8D69DCF49B239E2625314C0C00,
+	AppOptionsInternal_get_MessageSenderId_mD6223C71D2A6E3EF541C9545E7325BF9DB28CA86,
+	AppOptionsInternal_get_StorageBucket_m4F400D5B86B92623BDCFAEB5EA84BA4CAF4FAB06,
+	AppOptionsInternal_get_ProjectId_m91E98CD596C649395DA5AC4E58A834B0690C2CCA,
+	AppOptionsInternal_get_PackageName_m4311E1F6D19C5B937092B41899851411EBD77C92,
+	FutureVoid__ctor_mE27D03F52C5F3CE33751637C530DB89045EE97DA,
+	FutureVoid_Finalize_m4914D5DB9ED222FEEEEA8DEF173412D1C13073F2,
+	FutureVoid_Dispose_mA943194D39B041267FD0F98CDCA0408D9CB6E05F,
+	FutureVoid_GetTask_m81734F11961D1BC3DD5D3E313B006EA275C06B83,
+	FutureVoid_ThrowIfDisposed_m1A3D1272E3822D8CD7D884956EAF74D896A2A960,
+	FutureVoid_SetOnCompletionCallback_m086AA60436515B6CF84C1605846C8840F4D2C094,
+	FutureVoid_SetCompletionData_mF4A5E1F77BAF9B68991A1CB69E770B97E7B15F9E,
+	FutureVoid_SWIG_CompletionDispatcher_m8CFA344FBD0E96B3C7896FC501558DA1419AB92A,
+	FutureVoid_SWIG_OnCompletion_mE8F2BB533194FD8C4C8FE520E219727631002A30,
+	FutureVoid_SWIG_FreeCompletionData_m3CCB3F04F7A4B2F7C302FB2FA0EE8E290E9A3BAB,
+	FutureVoid__cctor_m3D527502EA46AD7D051F762E4A562FF82F1E96A2,
+	Action__ctor_m415006B5FB7F067D137625E84373664DC82C72E6,
+	Action_Invoke_mEBD747F9A5AF5F8E8105A38F9C922170724B1FB3,
+	Action_BeginInvoke_m721001119D7AEEEB9D68F6BEDAAD2EB463387021,
+	Action_EndInvoke_mAB3870474C83F2A617C049CAAF70528EBD60615C,
+	SWIG_CompletionDelegate__ctor_mCA1C557C03687E76F4BFCAE5CB5E6B8326FE15A5,
+	SWIG_CompletionDelegate_Invoke_mC15C2DAE74C01E6DE7AFE2119DE6B0DF2F026CBB,
+	SWIG_CompletionDelegate_BeginInvoke_mAD88D391BC21B2464215095F1DBA2FC78CA9067B,
+	SWIG_CompletionDelegate_EndInvoke_m4538BA4453A18C927F99EABDF137E4AED9315A82,
+	U3CGetTaskU3Ec__AnonStorey0__ctor_m6D38E8502001E98A17136217C4B800FAEE0EB670,
+	U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m49D5BEEABBEB996CB35B33CC6E10657F16D39EEE,
+	FutureString__ctor_m061489D0A1588D9DB38616FAB55A0BAD34485991,
+	FutureString_Finalize_m7E05EFF7C0DF5C9B736E0211D3EAF724019558BF,
+	FutureString_Dispose_mA5531960B498D68D9A7253FB97ABB654080E782F,
+	FutureString_GetTask_mE15192AC5EC101E6836F1F806E3CD9B91950B647,
+	FutureString_ThrowIfDisposed_m7418D0866866397DB8B214A7667285ED7A874664,
+	FutureString_SetOnCompletionCallback_m7D091BF76B1A886948A923C0DB78F9D7ABF92329,
+	FutureString_SetCompletionData_mA6014D9C79E67378D636D7CC8D2360B71CE9317A,
+	FutureString_SWIG_CompletionDispatcher_m86EEC251866153D32AEE9B99F7BD7C6E4CC3CECD,
+	FutureString_SWIG_OnCompletion_m496492F7C240FE1FB23AF0223E100D95981FA0A0,
+	FutureString_SWIG_FreeCompletionData_m728EE6C63C44CD43F72D2AC8D1AE44A5F4D9DEBB,
+	FutureString_GetResult_mA8D502925B06DBE5B32FEFA08C37E1959A9531FB,
+	FutureString__cctor_m9FCF43798D7BA44DCB1F0EB1E3AFADF13337ECBD,
+	Action__ctor_mE4D2F42653B22E66EE78EDFA0A6F0FC9DE29F868,
+	Action_Invoke_m38CEF6AC23E334A73051C8A8495BD589F9944C45,
+	Action_BeginInvoke_mB8146276DDBC5D032CF36AA4F9AA227FE3433994,
+	Action_EndInvoke_m7EC0DCEE073FFE353FD10E26E8C3C8F6062488C6,
+	SWIG_CompletionDelegate__ctor_mC109D1C9CBA64C8F062BAFB3C647075B3445C1C1,
+	SWIG_CompletionDelegate_Invoke_mE28C98C62BCF98D2BE91EB1A59DDA0C05B90FBD7,
+	SWIG_CompletionDelegate_BeginInvoke_m13C1B5D998ED859B44ABAE56C0F0AC67AC5976AB,
+	SWIG_CompletionDelegate_EndInvoke_m2ABCCBDDD7805C3EC86A1BBE9F6F6040EBAA926E,
+	U3CGetTaskU3Ec__AnonStorey0__ctor_mBC66A9655B530602D3A35807CFB3C180E613276A,
+	U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m23AD6C5F8C58F0B1C6C8126A3C744AA076422966,
+	StringStringMap__ctor_m8218902F12E5D674D8101ABD2FA4996A557796B4,
+	StringStringMap_Finalize_m877BB0DBFF8804C276839D5C035505AFD40DD531,
+	StringStringMap_Dispose_m11F4C25BA7DA033E065416255FADF23A568C93C8,
+	StringStringMap_get_Item_m5A6B9A74B8614DEDA1AA328E6B0CBCC580DA5FFA,
+	StringStringMap_set_Item_mEB96C48EFE84EFF677C27FD85175AE32D1171E84,
+	StringStringMap_TryGetValue_mA6A1DA610DBB2154213E26D8BD7D4ED5DA91AA79,
+	StringStringMap_get_Count_m23AA7260732D492449B2A9007D4FEB2E1A9456F3,
+	StringStringMap_get_IsReadOnly_m1EF022858AEC7DC1C7BE3C6956D51DA9AD186FC2,
+	StringStringMap_get_Keys_m6E34CF938455D8E556BF830B080DA013A8FEBF54,
+	StringStringMap_Add_m5CE13621BCA37764D136828C92275D5FAF8F7F89,
+	StringStringMap_Remove_mD57978BCA7D6CE13F47DA42ED71A98D3F42E664D,
+	StringStringMap_Contains_m7076E15E51464F24A26DD868BFE5920380FEFAC6,
+	StringStringMap_CopyTo_mE002CACF61634918A8A05056B9719EF337B9A5AB,
+	StringStringMap_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CstringU2CstringU3EU3E_GetEnumerator_m4ABE0EF92D07590D292BE85CDC1A2F2F317BA5B2,
+	StringStringMap_System_Collections_IEnumerable_GetEnumerator_m46FA2AF0B323CFD95FC0FC345E88D5DFB1431411,
+	StringStringMap_size_m84806AB5310AB1AD079F3DCC1B735215E9D2BEF7,
+	StringStringMap_Clear_mB5E2ABC508F335258B88373E442190D200F5344E,
+	StringStringMap_getitem_m618353CB4412369AD2B173780CD44193E76D3C02,
+	StringStringMap_setitem_m245F73D23E2F5DF0A2A2337E606ECA52E141F7FF,
+	StringStringMap_ContainsKey_m60796B2C978CC943015AE2861E860039EEB72E4C,
+	StringStringMap_Add_mD407B524D856858E4497F2EE77F9535B8EDCB957,
+	StringStringMap_Remove_m22580C6EB48CA56E302A6F5D706514AFF35FAC2F,
+	StringStringMap_create_iterator_begin_mE45BE62BBB2B4F05DED011FD7C2894F367DA3146,
+	StringStringMap_get_next_key_mC6D252BF4375B7BA0658BDFE9ED1D9F40A2D4939,
+	StringStringMap_destroy_iterator_m1451E6E43ED679FEE21883964BD236722A2C0820,
+	StringStringMapEnumerator__ctor_m9CE90E0A9E086934D8A2A72A0B9456F130AC643B,
+	StringStringMapEnumerator_get_Current_m20C105256F5587929BB3FE78A3C371A0F3F9952A,
+	StringStringMapEnumerator_System_Collections_IEnumerator_get_Current_mDFC5044B48229C96D7AE0539287FD7FE88F7225B,
+	StringStringMapEnumerator_MoveNext_mB82E09F6A36F7D4BA6B6E57312285ACE7601748B,
+	StringStringMapEnumerator_Reset_mE86B5994751D1C247404E0CC45FE0AA97F52F0C5,
+	StringStringMapEnumerator_Dispose_mB4E314EF7161EBD7B1DB15A8F85B7D7831C02250,
+	FutureBase__ctor_mC05DD84980454E9B8210087E01926E5D56FC017F,
+	FutureBase_Finalize_mAB21EE7CEC515CDD99FAB0686D59CB42082B7716,
+	FutureBase_Dispose_mE480130D78254414AA6A59E2FA63B9AFC4AC01BC,
+	FutureBase_status_mD675FFD3FAE10D36169C16590EE3C6F1861DD136,
+	FutureBase_error_m70CFE004FF942C34ED11D221D0B6033AD40C1825,
+	FutureBase_error_message_m12EFFA84132AB25450D3D3F349A414EF597CCCE3,
+	FirebaseAppPlatform__ctor_m68E35B71AC016430341FC2CB1501DD36DF35F974,
+	FirebaseAppPlatform_get_app_mF48C33C94B0CC0F998D8DF61979DAB214063E4C7,
+	FirebaseAppPlatform_set_app_m38D382F5AA33F3030A53A5651BBD307500E8DDB5,
+	FirebaseAppPlatform_get_AppObject_m1CED27077FDEAE27758E07A2EEDE76070E288678,
+	FirebaseAppPlatform_get_App_mF3A2EF3975241569480C2572A46904F0F53783EB,
+	FirebaseAppPlatform_get_Name_mA12B7AD267918DCD32B93CC89C842369CFC000FF,
+	FirebaseAppPlatform_get_DatabaseUrl_m69DF1252636587BE3685B7048E2B923EAAECEA27,
+	FirebaseAppUtils__ctor_m0550C50AC91C0BC87D86B952856A53C97E3A8AC7,
+	FirebaseAppUtils_get_Instance_m9960DF708E432F14B1D2F4C78B388E853953B094,
+	FirebaseAppUtils_TranslateDllNotFoundException_mD61541C79FB05EDC2630F3C73CE0094C173E0D5A,
+	FirebaseAppUtils_PollCallbacks_m5D20AC67704E5B18BF46A5703AECDEDCE7629986,
+	FirebaseAppUtils_GetDefaultInstance_m9DB3696E29A99D7BF4830F57CFAD4A1A8E78A2E9,
+	FirebaseAppUtils_GetLogLevel_m05DD590ACE45E734BDC26078599A47E6730CB2E0,
+	FirebaseAppUtils__cctor_m4837FB41B2F4A0BE41D86C217177EADFA3C9795F,
+	VersionInfo_get_SdkVersion_m55C4F788028216AA98C44DE5D9964D7A236D4E93,
+	VariantExtension_ToObject_m775407EA36D03F804BAB675E8AE5CEC507E73958,
+	VariantExtension_ToObjectInternal_m988B4DCAE1BA5EE432B7DDA3BA22E4356BA67E1F,
+	VariantExtension_ToStringVariantMap_mD8EDB66BC11F66B1A3714C6C485205DB2FACDFC2,
+	MonoPInvokeCallbackAttribute__ctor_m2E81D5C84000CF30E71622CFD3F1E0BC542D9423,
+	LogUtil__cctor_m6E595A5CBB8B82B7BD71A4852DF65729B15B21B8,
+	LogUtil__ctor_mAFE789D82E7A48CFB20437F1C33A2FFAA2A61648,
+	LogUtil_InitializeLogging_m3DC0D9A5186F8E0E1972761477DB5461FFCEC354,
+	LogUtil_ConvertLogLevel_mFFA87AF048B8DBB1ECEA04BBD51542A04427C822,
+	LogUtil_LogMessage_mE0D4736B7C636462B2AD246F65EFAF5F1785822F,
+	LogUtil_LogMessageFromCallback_m51E15E038FD24735B401F08AE91DA68177B9C1F8,
+	LogUtil_Finalize_m47FD3A655624527C6FEA216E29C6BDA9306C8D35,
+	LogUtil_Dispose_m3FEA1C02530EC4E814E7A724D26377919C5BB7D3,
+	LogUtil_Dispose_m3309007CAF0503891DA296F1CB22D442BA63ABFF,
+	LogMessageDelegate__ctor_m0D3CDB2719AF22A8EF20626B9B82AC1A2F45E05E,
+	LogMessageDelegate_Invoke_m20BABAAE7867154136330A9AF7BDA743D0A4E0FE,
+	LogMessageDelegate_BeginInvoke_m2046879E66D9C09D9E8CC40403E97DE5D0804B2A,
+	LogMessageDelegate_EndInvoke_m79E237F82D9C3DA6D5225C1642026BCACFE9DB50,
+	InitializationException__ctor_m6A39CAC13E9D758C410431462099CF1D901B45FF,
+	InitializationException__ctor_m6778555FEC2C05FCA0FF20B33431B2C076054FA6,
+	InitializationException_get_InitResult_m117BF68EFE3E33ED4FE39746118B8CB3D6ED9B1E,
+	InitializationException_set_InitResult_m26B14A46FFC550963C2A43651DE79C50B86F48E5,
+	FirebaseException__ctor_mB31E783657F428BA72B055DF8A4CE6EA6996996C,
+	FirebaseException_get_ErrorCode_m35E226BE84B218CC4F6C0B86EEE8770C2404F2A9,
+	FirebaseException_set_ErrorCode_m4E3FC27532C7E7D78183D0393070E1895A54A316,
+	ErrorMessages_get_DependencyNotFoundErrorMessage_m6457663EBE0DBF1CFF53BD25AD45A51A8619CE66,
+	ErrorMessages_get_DllNotFoundExceptionErrorMessage_m5238B46BE37EB715B9E70E09BB06784D46F63D01,
+	ErrorMessages__cctor_m73B330060F5C8675C915DE990225D000F7626A1C,
+	AppOptions__ctor_m0E8C28A5A2726E3D9154CE0EC0F104C2906F05E4,
+	AppOptions_Dispose_m17BA5011BBEE56F0DA0DCD24D40B4F3053A59B04,
+	AppOptions_get_DatabaseUrl_mAFA5B851D8F01720825A4BC02E583AF8A72D399F,
+	AppOptions_set_DatabaseUrl_m366936ECD0092B0115C71E8D5FBCB1C424DC1295,
+	AppOptions_set_AppId_mCCA503158696E5130B84AA621D19DB71659A11E4,
+	AppOptions_set_ApiKey_m740BF1DE16FD84D12C136647E49B08B5D3656375,
+	AppOptions_set_MessageSenderId_m068B2732D0F3031D9EE9E115B1CC0E915D611E15,
+	AppOptions_get_StorageBucket_mAB8AC18DB43252A87255F7B469F71D34611ECC4B,
+	AppOptions_set_StorageBucket_m6B82FA59AB41A66ADAAFB936C25B6C14E9A9D6A0,
+	AppOptions_set_ProjectId_mD20A2123AD3700C29BF4DBE2FC07F170D624559F,
+	AppOptions_set_PackageName_m15D939044210630597188B47808BD3CCB19A2DA1,
+};
+static const int32_t s_InvokerIndices[395] = 
+{
+	3,
+	1804,
+	1805,
+	1805,
+	1806,
+	1805,
+	1804,
+	1807,
+	1808,
+	1809,
+	1808,
+	1809,
+	1810,
+	1811,
+	1812,
+	1804,
+	1813,
+	1812,
+	1806,
+	1804,
+	1813,
+	1812,
+	1804,
+	1806,
+	1806,
+	1806,
+	1806,
+	1806,
+	1806,
+	1806,
+	1804,
+	1810,
+	1806,
+	756,
+	1804,
+	106,
+	137,
+	154,
+	4,
+	3,
+	844,
+	844,
+	613,
+	114,
+	154,
+	106,
+	756,
+	3,
+	3,
+	1805,
+	1804,
+	1814,
+	1815,
+	1816,
+	1815,
+	1816,
+	1810,
+	1817,
+	1812,
+	1804,
+	1805,
+	1818,
+	1804,
+	1804,
+	1805,
+	1819,
+	1819,
+	1810,
+	1805,
+	1810,
+	1810,
+	1820,
+	1821,
+	1819,
+	1806,
+	1810,
+	995,
+	995,
+	3,
+	23,
+	1822,
+	186,
+	154,
+	154,
+	154,
+	154,
+	154,
+	154,
+	154,
+	154,
+	154,
+	154,
+	154,
+	137,
+	137,
+	137,
+	124,
+	26,
+	205,
+	26,
+	124,
+	27,
+	125,
+	26,
+	49,
+	154,
+	4,
+	3,
+	23,
+	154,
+	0,
+	124,
+	28,
+	205,
+	28,
+	3,
+	844,
+	844,
+	613,
+	114,
+	154,
+	106,
+	4,
+	3,
+	3,
+	163,
+	1823,
+	23,
+	23,
+	14,
+	10,
+	89,
+	89,
+	14,
+	10,
+	14,
+	14,
+	172,
+	455,
+	89,
+	14,
+	15,
+	163,
+	23,
+	23,
+	34,
+	10,
+	14,
+	14,
+	14,
+	10,
+	34,
+	26,
+	14,
+	14,
+	89,
+	23,
+	23,
+	163,
+	23,
+	23,
+	28,
+	27,
+	789,
+	10,
+	89,
+	14,
+	1824,
+	1825,
+	1825,
+	130,
+	14,
+	14,
+	14,
+	10,
+	23,
+	28,
+	27,
+	9,
+	27,
+	9,
+	15,
+	989,
+	7,
+	26,
+	1826,
+	14,
+	89,
+	23,
+	23,
+	163,
+	3,
+	1823,
+	23,
+	23,
+	154,
+	4,
+	0,
+	4,
+	14,
+	106,
+	26,
+	26,
+	23,
+	23,
+	23,
+	3,
+	3,
+	0,
+	0,
+	49,
+	1,
+	164,
+	3,
+	49,
+	4,
+	4,
+	106,
+	106,
+	4,
+	3,
+	14,
+	14,
+	14,
+	14,
+	4,
+	154,
+	137,
+	154,
+	4,
+	4,
+	49,
+	106,
+	0,
+	0,
+	147,
+	14,
+	26,
+	14,
+	26,
+	89,
+	31,
+	124,
+	14,
+	105,
+	28,
+	23,
+	23,
+	23,
+	23,
+	154,
+	163,
+	23,
+	23,
+	14,
+	14,
+	14,
+	14,
+	14,
+	14,
+	14,
+	14,
+	163,
+	23,
+	23,
+	0,
+	23,
+	26,
+	7,
+	164,
+	1827,
+	7,
+	3,
+	124,
+	23,
+	105,
+	26,
+	124,
+	32,
+	592,
+	26,
+	23,
+	23,
+	163,
+	23,
+	23,
+	0,
+	23,
+	26,
+	7,
+	164,
+	1827,
+	7,
+	14,
+	3,
+	124,
+	23,
+	105,
+	26,
+	124,
+	32,
+	592,
+	26,
+	23,
+	23,
+	163,
+	23,
+	23,
+	28,
+	27,
+	789,
+	10,
+	89,
+	14,
+	1828,
+	1829,
+	1829,
+	130,
+	14,
+	14,
+	10,
+	23,
+	28,
+	27,
+	9,
+	27,
+	9,
+	15,
+	989,
+	7,
+	26,
+	1830,
+	14,
+	89,
+	23,
+	23,
+	163,
+	23,
+	23,
+	10,
+	10,
+	14,
+	26,
+	14,
+	26,
+	14,
+	14,
+	14,
+	14,
+	23,
+	4,
+	26,
+	23,
+	14,
+	10,
+	3,
+	4,
+	119,
+	119,
+	119,
+	26,
+	3,
+	23,
+	3,
+	21,
+	578,
+	578,
+	23,
+	23,
+	31,
+	124,
+	62,
+	350,
+	26,
+	62,
+	364,
+	10,
+	32,
+	62,
+	10,
+	32,
+	4,
+	4,
+	3,
+	26,
+	23,
+	14,
+	26,
+	26,
+	26,
+	26,
+	14,
+	26,
+	26,
+	26,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[18] = 
+{
+	{ 0x06000053, 7,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_mFE7727F29EF454DC82F7773C7DCA7DC4B9DCE688_RuntimeMethod_var, 0 },
+	{ 0x06000054, 8,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_m66D325C658E4D4A6F84E8BFF2A532FAAE96D5B5C_RuntimeMethod_var, 0 },
+	{ 0x06000055, 9,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_mEBC984AA86593D05467BC12012A3E1E33953ADED_RuntimeMethod_var, 0 },
+	{ 0x06000056, 10,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mD9473B8DC134A0E6BCE15305DC2E12E53AF6236E_RuntimeMethod_var, 0 },
+	{ 0x06000057, 11,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_mB08BAC65C0DB20E0361AD747E5009B62EAACC5F8_RuntimeMethod_var, 0 },
+	{ 0x06000058, 12,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_mF62073712A93DD7570BEC306E4E2DF6049F31EA9_RuntimeMethod_var, 0 },
+	{ 0x06000059, 13,  (void**)&SWIGExceptionHelper_SetPendingIOException_m59B1FD0225B32443CC0685A249F0A301693C2744_RuntimeMethod_var, 0 },
+	{ 0x0600005A, 14,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_m5F381925BBBE581ADE8384B76FEA7D208B69ED4D_RuntimeMethod_var, 0 },
+	{ 0x0600005B, 15,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_m71E895F1202CBDC1909619B221AC6AB3276D7AF7_RuntimeMethod_var, 0 },
+	{ 0x0600005C, 16,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_m8FDE1CE2A3D3EB2DA8C7C12E28DD90C15E84D946_RuntimeMethod_var, 0 },
+	{ 0x0600005D, 17,  (void**)&SWIGExceptionHelper_SetPendingSystemException_m8EC608208492B67293B9C2AC06D7B85B5B1B26E4_RuntimeMethod_var, 0 },
+	{ 0x0600005E, 18,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_mA47B953C5D09FDB764911484316FFDAAB4B0BE4A_RuntimeMethod_var, 0 },
+	{ 0x0600005F, 19,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_m1DAEF08C4FAD2181E64B920B843C903538D09327_RuntimeMethod_var, 0 },
+	{ 0x06000060, 20,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m2DDA9CC01A5B010A4D682F0615F89EFEA2D3A385_RuntimeMethod_var, 0 },
+	{ 0x0600006F, 21,  (void**)&SWIGStringHelper_CreateString_mF4B58DD5B3526C5E91D71786D528CC4ADADCF243_RuntimeMethod_var, 0 },
+	{ 0x0600010E, 23,  (void**)&FutureVoid_SWIG_CompletionDispatcher_m8CFA344FBD0E96B3C7896FC501558DA1419AB92A_RuntimeMethod_var, 0 },
+	{ 0x06000123, 22,  (void**)&FutureString_SWIG_CompletionDispatcher_m86EEC251866153D32AEE9B99F7BD7C6E4CC3CECD_RuntimeMethod_var, 0 },
+	{ 0x0600016F, 24,  (void**)&LogUtil_LogMessageFromCallback_m51E15E038FD24735B401F08AE91DA68177B9C1F8_RuntimeMethod_var, 0 },
+};
+extern const Il2CppCodeGenModule g_Firebase_AppCodeGenModule;
+const Il2CppCodeGenModule g_Firebase_AppCodeGenModule = 
+{
+	"Firebase.App.dll",
+	395,
+	s_methodPointers,
+	s_InvokerIndices,
+	18,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
